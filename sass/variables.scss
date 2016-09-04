@@ -1,0 +1,35 @@
+// BACKGROUND
+
+$bg-grid-width: 150px; // At 1 zoom
+$bg-grid-height: 50px;
+
+// COMPONENT TYPE
+
+$base-font-size: 9px;
+
+// Used for general UI elements. Segoe for Windows, MS Sans Serif for OS X
+$standard-font: normal normal $base-font-size "Segoe UI", "Microsoft Sans Serif";
+
+// Used in scribbles
+$script-font: normal normal $base-font-size "Microsoft Sans Serif";
+
+// Used in panel text
+$console-font: normal normal $base-font-size "Courier New"; // Common to MAC+PC
+
+// Seemingly only used for panel headings
+$header-font: italic bold $base-font-size "Times New Roman";
+
+
+// COMPONENT LAYOUT
+
+// The amount of padding around a text parameter and a a title of a input/output
+// less component. Determinitative of final heights
+$component-text-padding: 6px 2px 6px 2px;
+
+// Minimim width of a component; basically what it defaults to
+$component-min-width: 50px;
+
+// COMPONENT FEATURES
+
+$param-nub-radius: 6px;
+$param-nub-border: 2px;

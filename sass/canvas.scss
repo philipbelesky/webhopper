@@ -1,0 +1,25 @@
+// TODO title
+
+
+// The outer canvas of a definition
+.main-bg {
+  padding: $bg-grid-height $bg-grid-width/2;
+  border: 1px solid #000;
+  overflow: hidden;
+  position: relative;
+  background: #c7c3bc;
+}
+
+.canvas-bg {
+  background: #d4d1c7;
+  background-position: -1px -1px;
+  border: 1px solid #000;
+  box-shadow: 0 0 45px #7d7c77;
+}
+
+.bg-grid {
+  background-size: $bg-grid-width $bg-grid-height;
+  background-image:
+    linear-gradient(to right, #b8b5b0 1px, transparent 1px),
+    linear-gradient(to bottom, #b8b5b0 1px, transparent 1px);
+}

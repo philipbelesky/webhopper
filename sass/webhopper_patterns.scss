@@ -1,0 +1,12 @@
+// Special cases needed to apply styles to elements in astrium
+
+@import 'webhopper';
+
+
+.ndpl-component__sample {
+  @extend .main-bg;
+  @extend .bg-grid;
+  @extend .canvas-bg;
+  border-radius: none; // Override astrium
+  box-shadow: none; // Override webhopper
+}
