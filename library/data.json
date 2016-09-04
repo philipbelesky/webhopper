@@ -51,6 +51,21 @@
     },
     "groups": [
         {
+            "name": "generics",
+            "title": "Generics",
+            "components": [
+                {
+                    "group": "generics",
+                    "name": "single_in_out",
+                    "title": "Single In/Out"
+                },{
+                    "group": "generics",
+                    "name": "multi_in_out",
+                    "title": "Multi In/Out"
+                }
+            ]
+        },
+        {
             "name": "params",
             "title": "Params",
             "components": [
@@ -63,18 +78,6 @@
                     "group": "params",
                     "name": "panel",
                     "title": "Panel"
-                }
-            ]
-        },
-        {
-            "name": "test_group",
-            "title": "Test Group",
-            "components": [
-                {
-                    "group": "test_group",
-                    "name": "test_component",
-                    "title": "Test",
-                    "width": "full"
                 }
             ]
         }

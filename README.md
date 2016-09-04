@@ -19,9 +19,13 @@ To build a copy of this site locally, first install project dependencies:
 
     `npm install`
 
+Then build the templates using Astrum
+
+    `npm run astrum init library`
+
 Then run the gulp task to start the local server:
 
-    `npm run gulpm`
+    `npm run gulp`
 
 # Acknowledgements
 

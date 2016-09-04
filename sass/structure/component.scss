@@ -4,80 +4,42 @@
   font: $standard-font;
   max-width: 200px; // TEMP
   margin: 20px; // TEMP
+}
 
-  .component-inner {
-    background: linear-gradient( 0deg, #cbcbcb, #dfdedf);
-    box-shadow: inset 0px 12px RGBa(255,255,255,0.2);
-    border: 1px solid #2f2f2f;
-    border-radius: 4px;
-    z-index: 100;
-    @extend .flex-1;
-    @extend .flex-horizontal;
+.component-inner {
+  background: linear-gradient( 0deg, #cbcbcb, #dfdedf);
+  box-shadow: inset 0px 12px RGBa(255,255,255,0.2);
+  border: 1px solid #2f2f2f;
+  border-radius: 4px;
+  z-index: 100;
+  @extend .flex-1;
+  @extend .flex-horizontal;
+}
 
-    .component-paramless {
-      // For components where the title isn't a black blob
-      padding: $component-text-padding;
-      min-width: $component-min-width;
-      text-align: center;
-      width: 100%;
-      h4 {
-        margin: 0 auto;
-      }
-    }
+.component-paramless {
+  // For components where the title isn't a black blob
+  padding: $component-text-padding;
+  min-width: $component-min-width;
+  text-align: center;
+  width: 100%;
+  h4 {
+    margin: 0 auto;
   }
+}
 
-  .component-blob {
-    @extend .flex-1;
-    background: #343434;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 12px;
-    margin: 2px;
-    @extend .flex-vertical-center;
-    .component-title {
-      margin: 0 auto;
-      padding: 10px;
-      transform: rotate(-90deg);
-      transform-origin: center center 0;
-    }
-  }
-  .component-params {
-    @extend .flex-vertical;
-    h4 {
-      width: 100%;
-    }
-    .component-parameter {
-      @extend .flex-1;
-      padding: $component-text-padding;
-      @extend .flex-vertical-center;
-    }
-    &.component-inputs {
-      text-align: right;
-      padding-left: 8px;
-    }
-    &.component-outputs {
-      text-align: left;
-      padding-right: 8px;
-    }
-  }
+.component-blob {
+  @extend .flex-1;
+  background: #343434;
+  border-radius: 5px;
+  color: #fff;
+  margin: 2px;
+  @extend .flex-vertical-center;
+}
 
-  .nub {
-    height: $param-nub-radius;
-    width: $param-nub-radius/2;
-    background: #fff;
-    border-top: $param-nub-border solid #2f2f2f;
-    border-bottom: $param-nub-border solid #2f2f2f;
-    z-index: 90;
-    &.nub-left {
-      border-top-left-radius: $param-nub-radius;
-      border-bottom-left-radius: $param-nub-radius;
-      border-left: $param-nub-border solid #2f2f2f;
-    }
-    &.nub-right {
-      border-top-right-radius: $param-nub-radius;
-      border-bottom-right-radius: $param-nub-radius;
-      border-right: $param-nub-border solid #2f2f2f;
-
-    }
-  }
+.component-title {
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 10px 5px;
+  transform: rotate(-90deg);
+  transform-origin: center center 0;
 }

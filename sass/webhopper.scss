@@ -1,4 +1,8 @@
 
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
 // Abstract
 @import 'flexbox';
 
@@ -9,6 +13,7 @@
 
 // Generic Components
 @import 'structure/component';
+@import 'structure/parameters';
 
 // Specific Component Overrides
 @import 'types/params';

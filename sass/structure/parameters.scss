@@ -1,0 +1,49 @@
+
+.component-params {
+
+  @extend .flex-vertical;
+
+  .component-parameter {
+    @extend .flex-1;
+    padding: $component-text-padding;
+    @extend .flex-vertical-center;
+  }
+
+  &.component-inputs h4 {
+    text-align: right;
+    padding-left: $param-side-padding * 1;
+  }
+  &.component-inputs .component-parameter::before {
+    content: "";
+    @extend .nub;
+    margin-left: $param-side-padding * -1;
+    border-top-left-radius: $param-nub-radius;
+    border-bottom-left-radius: $param-nub-radius;
+    border-left: $param-nub-border solid #2f2f2f;
+  }
+
+  &.component-outputs h4 {
+    text-align: left;
+    padding-right: $param-side-padding * 1;
+  }
+  &.component-outputs .component-parameter::after {
+    content: "";
+    @extend .nub;
+    margin-right: $param-side-padding * -1;
+    border-top-right-radius: $param-nub-radius;
+    border-bottom-right-radius: $param-nub-radius;
+    border-right: $param-nub-border solid #2f2f2f;
+  }
+
+}
+
+
+// The half circle signifying an input or output
+.nub {
+  height: $param-nub-radius;
+  width: $param-nub-radius/2;
+  background: #fff;
+  border-top: $param-nub-border solid #2f2f2f;
+  border-bottom: $param-nub-border solid #2f2f2f;
+  z-index: 90;
+}

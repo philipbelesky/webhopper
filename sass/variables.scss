@@ -3,7 +3,10 @@
 $bg-grid-width: 150px; // At 1 zoom
 $bg-grid-height: 50px;
 
+
+// -----------------------------------------------------------------------------
 // COMPONENT TYPE
+// -----------------------------------------------------------------------------
 
 $base-font-size: 9px;
 
@@ -19,8 +22,9 @@ $console-font: normal normal $base-font-size "Courier New"; // Common to MAC+PC
 // Seemingly only used for panel headings
 $header-font: italic bold $base-font-size "Times New Roman";
 
-
+// -----------------------------------------------------------------------------
 // COMPONENT LAYOUT
+// -----------------------------------------------------------------------------
 
 // The amount of padding around a text parameter and a a title of a input/output
 // less component. Determinitative of final heights
@@ -29,7 +33,13 @@ $component-text-padding: 6px 2px 6px 2px;
 // Minimim width of a component; basically what it defaults to
 $component-min-width: 50px;
 
+// -----------------------------------------------------------------------------
 // COMPONENT FEATURES
+// -----------------------------------------------------------------------------
+
+// How much space is between the paramter string and the component's border
+$param-side-padding: 8px;
 
 $param-nub-radius: 6px;
+
 $param-nub-border: 2px;
