@@ -1,0 +1,11 @@
+# Manually add built files
+css/
+
+# Node
+node_modules/
+
+# Ignore what astrium builds
+library/app
+library/favicon.png
+library/index.html
+library/LICENSE.txt
