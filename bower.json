@@ -1,0 +1,10 @@
+{
+  "name": "webhopper",
+  "description": "Grasshopper UI in HTML/CSS",
+  "main": "dist/webhopper.css",
+  "authors": [
+    "Philip Belesky"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/philipbelesky/webhopper",
+}

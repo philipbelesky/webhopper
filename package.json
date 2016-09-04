@@ -2,13 +2,17 @@
   "name": "webhopper",
   "version": "0.1.0",
   "description": "Grasshopper UI in HTML/CSS",
-  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Philip Belesky",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philipbelesky/webhopper.git"
+  },
   "devDependencies": {
+    "astrum": "^1.7.0",
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
     "gulp-sass": "^2.3.2"
