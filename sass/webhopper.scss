@@ -1,11 +1,9 @@
 
-h1,h2,h3,h4,h5,h6 {
-  margin: 0;
-}
+// Reset
+@import '../node_modules/normalize-scss/sass/normalize/import-now';
 
 // Abstract
 @import 'flexbox';
-
 
 // General Definition
 @import 'variables';
@@ -14,6 +12,10 @@ h1,h2,h3,h4,h5,h6 {
 // Generic Components
 @import 'structure/component';
 @import 'structure/parameters';
+
+// All Icons
+@import 'icons';
+
 
 // Specific Component Overrides
 @import 'types/params';

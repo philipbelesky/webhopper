@@ -1,19 +1,18 @@
 
-.component-params {
-
+// All input/ouput groups
+.nodes {
   @extend .flex-vertical;
-
-  .component-parameter {
-    @extend .flex-1;
-    padding: $component-text-padding;
-    @extend .flex-vertical-center;
+  .name {
+    margin-bottom: 0;
   }
+}
 
-  &.component-inputs h4 {
+.nodes--flow-in {
+  .name {
     text-align: right;
     padding-left: $param-side-padding * 1;
   }
-  &.component-inputs .component-parameter::before {
+  .nodes__node::before {
     content: "";
     @extend .nub;
     margin-left: $param-side-padding * -1;
@@ -21,12 +20,14 @@
     border-bottom-left-radius: $param-nub-radius;
     border-left: $param-nub-border solid #2f2f2f;
   }
+}
 
-  &.component-outputs h4 {
+.nodes--flow-out {
+  .name {
     text-align: left;
     padding-right: $param-side-padding * 1;
   }
-  &.component-outputs .component-parameter::after {
+  .nodes__node::after {
     content: "";
     @extend .nub;
     margin-right: $param-side-padding * -1;
@@ -34,9 +35,13 @@
     border-bottom-right-radius: $param-nub-radius;
     border-right: $param-nub-border solid #2f2f2f;
   }
-
 }
 
+.nodes__node {
+  @extend .flex-1;
+  @extend .flex-vertical-center;
+  padding: $component-text-padding;
+}
 
 // The half circle signifying an input or output
 .nub {

@@ -6,40 +6,84 @@
   margin: 20px; // TEMP
 }
 
-.component-inner {
+.component__inner {
+  @extend .flex-1;
+  @extend .flex-horizontal;
   background: linear-gradient( 0deg, #cbcbcb, #dfdedf);
   box-shadow: inset 0px 12px RGBa(255,255,255,0.2);
   border: 1px solid #2f2f2f;
   border-radius: 4px;
   z-index: 100;
-  @extend .flex-1;
-  @extend .flex-horizontal;
 }
 
-.component-paramless {
-  // For components where the title isn't a black blob
-  padding: $component-text-padding;
-  min-width: $component-min-width;
-  text-align: center;
-  width: 100%;
-  h4 {
-    margin: 0 auto;
-  }
-}
-
-.component-blob {
+.identifier {
+  @extend .flex-vertical-center;
   @extend .flex-1;
   background: #343434;
   border-radius: 5px;
   color: #fff;
   margin: 2px;
-  @extend .flex-vertical-center;
 }
 
-.component-title {
+// For components without a black block identifier (ie basic parmams or when draw icons is on)
+.identifier--stub, .identifier--draw-icon {
+  background: none; // Override parent
+  border-radius: 0; // Override parent
+  color: #000; // Override parent
+  margin: 0; // Override parent
+  min-width: $component-min-width;
+  padding: $component-text-padding;
+  text-align: center;
+  .name {
+    margin: 0 auto;
+  }
+}
+
+// The element that contains the name
+.identifier__label {
   font-size: 12px;
   margin: 0 auto;
   padding: 10px 5px;
   transform: rotate(-90deg);
   transform-origin: center center 0;
+  // Don't rotate the icon when that is displaying
+}
+.identifier--draw-icon .identifier__label {
+  transform: none;
+}
+
+// Container for the different visual display methods
+.name {
+  // By default we use name--draw-short
+  .name__icon {
+    display: none;
+  }
+}
+
+// Toggle States
+.name--draw-short {
+  .name__short {
+    display: block;
+  }
+  .name__full {
+    display: none;
+  }
+}
+// Toggle States
+.name--draw-full {
+  .name__short {
+    display: none;
+  }
+  .name__full {
+    display: block;
+  }
+}
+
+.name--draw-icon {
+  .name__short, .name__full {
+    display: none;
+  }
+  .name__icon {
+    display: block;
+  }
 }

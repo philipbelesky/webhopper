@@ -1,37 +1,40 @@
 
 // Number Slider
-.component-slider {
-  .component-scale {
+.component--type-slider {
 
-  }
-  .drag-diamond {
-    width: 4px;
-    height: 4px;
-    background: #fff;
-    border: 2px solid #000;
-    margin-left: 3px;
-    transform: rotate(45deg);
-  }
+}
+
+.slider {
+  @extend .flex-vertical-center;
+}
+.slider__diamond {
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  border: 2px solid #000;
+  margin-left: 3px;
+  transform: rotate(45deg);
 }
 
 // Panel
-.component-panel {
-  .component-inner {
-    .component-content {
-      @extend .flex-1;
-      .component-heading {
-        padding: 5px;
-        text-align: center;
-        background: #cdc55f;
-        border-bottom: 1px solid #000;
-        font: $header-font;
-      }
-      .component-text {
-        text-align: center;
-        padding: 60px 10px;
-        font: $console-font;
-      }
-    }
-    background: #fffa5b;
-  }
+.component--type-panel .component__inner {
+  background: #fffa5b;
 }
+
+// Inner structure of a panel with header/footer
+.content {
+  @extend .flex-1;
+}
+.content__heading {
+  padding: 5px;
+  text-align: center;
+  background: #cdc55f;
+  border-bottom: 1px solid #000;
+  font: $header-font;
+}
+.content__text {
+  text-align: center;
+  padding: 60px 10px;
+  font: $console-font;
+}
+

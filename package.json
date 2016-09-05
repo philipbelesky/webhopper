@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "Grasshopper UI in HTML/CSS",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulp": "gulp",
+    "astrum": "astrum"
   },
   "author": "Philip Belesky",
   "license": "MIT",
@@ -15,10 +16,7 @@
     "astrum": "^1.7.0",
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
-    "gulp-sass": "^2.3.2"
-  },
-  "scripts": {
-    "gulp": "gulp",
-    "astrum": "astrum"
+    "gulp-sass": "^2.3.2",
+    "normalize-scss": "^5.0.3"
   }
 }

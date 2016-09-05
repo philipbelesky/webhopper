@@ -16,7 +16,7 @@ gulp.task('styles', function() {
 gulp.task('connect', function() {
   connect.server({
     root: 'library',
-    port: 8000,
+    port: 7000,
     livereload: true
   });
 });
