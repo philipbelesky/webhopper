@@ -1,9 +1,12 @@
 
 .component {
   @extend .flex-vertical-center;
+  display: inline-block;
   font: $standard-font;
   max-width: 200px; // TEMP
   margin: 20px; // TEMP
+  padding-left: $param-nub-radius; // Space for node nibs
+  padding-right: $param-nub-radius; // Space for node nibs
 }
 
 .component__inner {
@@ -22,7 +25,7 @@
   background: #343434;
   border-radius: 5px;
   color: #fff;
-  margin: 2px;
+  margin: 2px 0;
 }
 
 // For components without a black block identifier (ie basic parmams or when draw icons is on)
@@ -32,7 +35,7 @@
   color: #000; // Override parent
   margin: 0; // Override parent
   min-width: $component-min-width;
-  padding: $component-text-padding;
+  padding: $parameter-padding-vertical $parameter-padding-horizontal;
   text-align: center;
   .name {
     margin: 0 auto;
@@ -46,7 +49,7 @@
 .identifier__label {
   font-size: 12px;
   margin: 0 auto;
-  padding: 10px 5px;
+  padding: $identifier-padding-vertical $identifier-padding-horizontal;
   transform: rotate(-90deg);
   transform-origin: center center 0;
 }

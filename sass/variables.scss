@@ -26,20 +26,26 @@ $header-font: italic bold $base-font-size "Times New Roman";
 // COMPONENT LAYOUT
 // -----------------------------------------------------------------------------
 
-// The amount of padding around a text parameter and a a title of a input/output
-// less component. Determinitative of final heights
-$component-text-padding: 6px 2px 6px 2px;
+$identifier-padding-vertical: 0; // Doesnt work properly with rotate atm
+$identifier-padding-horizontal: 3px;
 
 // Minimim width of a component; basically what it defaults to
-$component-min-width: 50px;
+$component-min-width: 43px;
 
 // -----------------------------------------------------------------------------
-// COMPONENT FEATURES
+// Parameters
 // -----------------------------------------------------------------------------
+
+// The amount of padding around a text parameter and a a title of a input/output
+// less component. Determinitative of final heights
+$parameter-padding-horizontal: 7px;
+$parameter-padding-vertical: 6px;
+$parameter-inner-padding: $parameter-padding-horizontal / 2;
 
 // How much space is between the paramter string and the component's border
 $param-side-padding: 8px;
 
-$param-nub-radius: 6px;
-
+// Size of the node nub
+$param-nub-diameter: 6px;
+$param-nub-radius: $param-nub-diameter / 2;
 $param-nub-border: 2px;

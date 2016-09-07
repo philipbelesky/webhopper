@@ -2,37 +2,44 @@
 // All input/ouput groups
 .nodes {
   @extend .flex-vertical;
+
   .name {
+    flex: 1;
     margin-bottom: 0;
+    padding: $parameter-padding-vertical $parameter-padding-horizontal;
   }
 }
 
 .nodes--flow-in {
+  margin-left: $param-nub-diameter * -1;
+
   .name {
-    text-align: right;
-    padding-left: $param-side-padding * 1;
+    text-align: left;
+    padding-right: $parameter-inner-padding;
   }
+
   .nodes__node::before {
     content: "";
     @extend .nub;
-    margin-left: $param-side-padding * -1;
-    border-top-left-radius: $param-nub-radius;
-    border-bottom-left-radius: $param-nub-radius;
+    border-top-left-radius: $param-nub-diameter;
+    border-bottom-left-radius: $param-nub-diameter;
     border-left: $param-nub-border solid #2f2f2f;
   }
 }
 
 .nodes--flow-out {
+  margin-right: $param-nub-diameter * -1;
+
   .name {
-    text-align: left;
-    padding-right: $param-side-padding * 1;
+    text-align: right;
+    padding-left: $parameter-inner-padding;
   }
+
   .nodes__node::after {
     content: "";
     @extend .nub;
-    margin-right: $param-side-padding * -1;
-    border-top-right-radius: $param-nub-radius;
-    border-bottom-right-radius: $param-nub-radius;
+    border-top-right-radius: $param-nub-diameter;
+    border-bottom-right-radius: $param-nub-diameter;
     border-right: $param-nub-border solid #2f2f2f;
   }
 }
@@ -40,13 +47,12 @@
 .nodes__node {
   @extend .flex-1;
   @extend .flex-vertical-center;
-  padding: $component-text-padding;
 }
 
 // The half circle signifying an input or output
 .nub {
-  height: $param-nub-radius;
-  width: $param-nub-radius/2;
+  height: $param-nub-diameter;
+  width: $param-nub-radius;
   background: #fff;
   border-top: $param-nub-border solid #2f2f2f;
   border-bottom: $param-nub-border solid #2f2f2f;

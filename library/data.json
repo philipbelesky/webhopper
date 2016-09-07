@@ -59,7 +59,8 @@
                     "group": "generics",
                     "name": "single_in_out",
                     "title": "Single In/Out"
-                },{
+                },
+                {
                     "group": "generics",
                     "name": "multi_in_out",
                     "title": "Multi In/Out"
@@ -77,8 +78,59 @@
                 },
                 {
                     "group": "params",
+                    "name": "boolean-toggle",
+                    "title": "Boolean Toggle"
+                },
+                {
+                    "group": "params",
+                    "name": "control-knob",
+                    "title": "Control Knob"
+                },
+                {
+                    "group": "params",
+                    "name": "digit-scroller",
+                    "title": "Digit Scroller"
+                },
+                {
+                    "group": "params",
+                    "name": "value-list",
+                    "title": "Value List"
+                },
+                {
+                    "group": "params",
+                    "name": "gradient",
+                    "title": "Gradient"
+                },
+                {
+                    "group": "params",
+                    "name": "image-sampler",
+                    "title": "Image Sampler"
+                },
+                {
+                    "group": "params",
+                    "name": "cluster-input",
+                    "title": "Cluster Input"
+                },
+                {
+                    "group": "params",
+                    "name": "cluster-output",
+                    "title": "Cluster Output"
+                },
+                {
+                    "group": "params",
                     "name": "panel",
                     "title": "Panel"
+                }
+            ]
+        },
+        {
+            "name": "curve",
+            "title": "Curve",
+            "components": [
+                {
+                    "group": "curve",
+                    "name": "evaluate-at-param",
+                    "title": "Get Proper Name. Evaluate?"
                 }
             ]
         }
