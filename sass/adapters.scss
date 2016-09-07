@@ -1,7 +1,8 @@
 // Special cases needed to apply styles to elements in astrium
+@import 'variables';
+@import 'canvas';
 
-@import 'webhopper';
-
+// Set the astrum component background to match the grasshopper canvas
 .ndpl-component__sample {
   @extend .main-bg;
   @extend .bg-grid;

@@ -1,5 +1,6 @@
 # Manually add built files
 css/
+dist/
 
 # Node
 node_modules/

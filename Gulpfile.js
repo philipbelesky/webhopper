@@ -7,7 +7,8 @@ gulp.task('styles', function() {
   gulp.src(['./sass/webhopper.scss'])
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('dist/'))
-  gulp.src(['./sass/webhopper_patterns.scss'])
+    .pipe(gulp.dest('library/app/css/'))
+  gulp.src(['./sass/adapters.scss'])
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('library/app/css/'))
 });

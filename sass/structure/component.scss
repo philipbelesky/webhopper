@@ -38,6 +38,9 @@
     margin: 0 auto;
   }
 }
+.identifier--stub.identifier--draw-icon {
+  padding: 0; // No padding when using an icon view
+}
 
 // The element that contains the name
 .identifier__label {
@@ -46,10 +49,9 @@
   padding: 10px 5px;
   transform: rotate(-90deg);
   transform-origin: center center 0;
-  // Don't rotate the icon when that is displaying
 }
 .identifier--draw-icon .identifier__label {
-  transform: none;
+  transform: none; // Don't rotate the icon when that is displaying
 }
 
 // Container for the different visual display methods

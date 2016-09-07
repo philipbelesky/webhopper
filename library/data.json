@@ -29,7 +29,8 @@
     },
     "assets": {
         "css": [
-            "app/css/webhopper_patterns.css"
+            "app/css/webhopper.css",
+            "app/css/adapters.css"
         ],
         "js": []
     },
