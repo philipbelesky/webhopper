@@ -11,3 +11,26 @@
   box-shadow: none; // Override webhopper
   padding: 10px; // override webhopper
 }
+
+// Sidebar nav items
+.wh-vis-toggle::after {
+  background: none;
+  margin-top: -12px;
+  content: "◻️";
+  right: 28px;
+  transform: none;
+  // Set a background that is like a checked/unchecked
+}
+
+.wh-vis-toggle:hover {
+  cursor: pointer;
+}
+
+.wh-vis-toggle.active::after {
+  content: "☑️"
+  // Set a background that is like a checked/unchecked
+}
+
+.ndpl-nav__items {
+  margin-bottom: 50px; // Reduce the spacing somewhat
+}

@@ -4,6 +4,7 @@
   display: inline-block;
   font: $standard-font;
   max-width: 200px; // TEMP
+  min-width: 40px;
   margin: 20px; // TEMP
   padding-left: $param-nub-radius; // Space for node nibs
   padding-right: $param-nub-radius; // Space for node nibs
@@ -22,14 +23,11 @@
 .identifier {
   @extend .flex-vertical-center;
   @extend .flex-1;
-  background: #343434;
-  border-radius: 5px;
-  color: #fff;
   margin: 2px 0;
 }
 
 // For components without a black block identifier (ie basic parmams or when draw icons is on)
-.identifier--stub, .identifier--draw-icon {
+.identifier__stub, .identifier--draw-icon {
   background: none; // Override parent
   border-radius: 0; // Override parent
   color: #000; // Override parent
@@ -47,6 +45,9 @@
 
 // The element that contains the name
 .identifier__label {
+  background: #343434;
+  border-radius: 5px;
+  color: #fff;
   font-size: 12px;
   margin: 0 auto;
   padding: $identifier-padding-vertical $identifier-padding-horizontal;
@@ -59,23 +60,20 @@
 
 // Container for the different visual display methods
 .name {
+  margin: 0 auto;
   // By default we use name--draw-short
   .name__icon {
     display: none;
   }
 }
 
-// Toggle States
-.name--draw-short {
-  .name__short {
-    display: block;
-  }
-  .name__full {
-    display: none;
-  }
+// Default View
+.name__icon, .name__full  {
+  display: none;
 }
+
 // Toggle States
-.name--draw-full {
+.component--draw-full-names {
   .name__short {
     display: none;
   }
@@ -84,11 +82,11 @@
   }
 }
 
-.name--draw-icon {
-  .name__short, .name__full {
+.component--draw-icons {
+  .identifier .name__short, .identifier  .name__full {
     display: none;
   }
-  .name__icon {
+  .identifier .name__icon {
     display: block;
   }
 }

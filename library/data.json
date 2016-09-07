@@ -32,7 +32,9 @@
             "app/css/webhopper.css",
             "app/css/adapters.css"
         ],
-        "js": []
+        "js": [
+            "app/js/webhopper.js"
+        ]
     },
     "font_libraries": {
         "typekit_code": null,
