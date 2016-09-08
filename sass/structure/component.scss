@@ -1,15 +1,16 @@
 
+// The overall component bounding box
 .component {
   @extend .flex-vertical-center;
   display: inline-block;
   font: $standard-font;
-  max-width: 200px; // TEMP
-  min-width: 40px;
+  min-width: $component-min-width;
   margin: 20px; // TEMP
   padding-left: $param-nub-radius; // Space for node nibs
   padding-right: $param-nub-radius; // Space for node nibs
 }
 
+// The content as bordered
 .component__inner {
   @extend .flex-1;
   @extend .flex-horizontal;
@@ -20,73 +21,3 @@
   z-index: 100;
 }
 
-.identifier {
-  @extend .flex-vertical-center;
-  @extend .flex-1;
-  margin: 2px 0;
-}
-
-// For components without a black block identifier (ie basic parmams or when draw icons is on)
-.identifier__stub, .identifier--draw-icon {
-  background: none; // Override parent
-  border-radius: 0; // Override parent
-  color: #000; // Override parent
-  margin: 0; // Override parent
-  min-width: $component-min-width;
-  padding: $parameter-padding-vertical $parameter-padding-horizontal;
-  text-align: center;
-  .name {
-    margin: 0 auto;
-  }
-}
-.identifier--stub.identifier--draw-icon {
-  padding: 0; // No padding when using an icon view
-}
-
-// The element that contains the name
-.identifier__label {
-  background: #343434;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 12px;
-  margin: 0 auto;
-  padding: $identifier-padding-vertical $identifier-padding-horizontal;
-  transform: rotate(-90deg);
-  transform-origin: center center 0;
-}
-.identifier--draw-icon .identifier__label {
-  transform: none; // Don't rotate the icon when that is displaying
-}
-
-// Container for the different visual display methods
-.name {
-  margin: 0 auto;
-  // By default we use name--draw-short
-  .name__icon {
-    display: none;
-  }
-}
-
-// Default View
-.name__icon, .name__full  {
-  display: none;
-}
-
-// Toggle States
-.component--draw-full-names {
-  .name__short {
-    display: none;
-  }
-  .name__full {
-    display: block;
-  }
-}
-
-.component--draw-icons {
-  .identifier .name__short, .identifier  .name__full {
-    display: none;
-  }
-  .identifier .name__icon {
-    display: block;
-  }
-}

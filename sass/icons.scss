@@ -1,21 +1,16 @@
-.name__icon {
-  width: 24px;
-  height: 24px;
-  background-position: center center;
-}
 
-.component--type-vector .name__icon {
+.component--type-vector .label--icon {
   background-image: url("http://rhino.github.io/icons/Params/Vector.png");
  }
 
-.component--type-vectorxyz .name__icon {
+.component--type-vectorxyz .label--icon {
   background-image: url("http://rhino.github.io/icons/Vector/Vector_XYZ.png");
  }
 
-.component--type-slider  .name__icon {
+.component--type-slider  .label--icon {
  // No Component UI Icon
 }
 
-.component--type-panel .name__icon {
+.component--type-panel .label--icon {
  // No Component UI Icon
 }

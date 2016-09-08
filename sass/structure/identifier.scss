@@ -1,0 +1,71 @@
+
+// The middle black blob that contains the title
+.identifier {
+  @extend .flex-vertical-center;
+  @extend .flex-1;
+  margin: 2px auto;
+  background: #343434;
+  border-radius: 5px;
+  color: #fff;
+}
+
+// For components without a black block identifier (ie basic parmams)
+.identifier--stub {
+  background: none; // Override parent
+  border-radius: 0; // Override parent
+  color: #000; // Override parent
+  margin: 0 auto; // Override parent
+  padding: $parameter-padding-vertical $parameter-padding-horizontal;
+
+  // Standalone components dont have rotated text
+  .label--short, .label--full {
+    transform: none;
+    font-size: 9px;
+  }
+}
+
+// The element that contains the name
+.identifier__label {
+  font-size: 12px;
+  margin: 0 auto;
+  padding: $identifier-padding-vertical $identifier-padding-horizontal;
+  transform: rotate(-90deg);
+  transform-origin: center center 0;
+}
+
+// Default View
+.label--icon, .label--full  {
+  display: none;
+}
+
+// Icon Overrides
+.label--icon {
+  width: 24px;
+  height: 24px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+// Toggle States
+.component--draw-full-names {
+  .label--short {
+    display: none;
+  }
+  .label--full {
+    display: block;
+  }
+}
+
+.component--draw-icons {
+  .identifier {
+    @extend .identifier--stub; // Act like a standalone when icons are on
+    padding-top: 2px; // Icons get less vertical padding
+    padding-bottom: 2px;
+  }
+  .identifier .label--short, .identifier  .label--full {
+    display: none;
+  }
+  .identifier .label--icon {
+    display: block;
+  }
+}
