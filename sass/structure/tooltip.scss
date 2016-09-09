@@ -1,0 +1,29 @@
+
+.tooltip {
+  border: 1px solid #000;
+  display: none;
+  position: absolute;
+  min-width: 120px;
+}
+.component:hover .tooltip {
+  display: block;
+}
+
+.tooltip__header {
+  background: #ffd25f;
+  padding: 12px 6px;
+  font-size: 14px;
+  font-style: italic;
+
+  .label--icon {
+    display: inline-block;
+    float: left; // Let the title's line-height effect the height
+    margin: -4px 15px 0 2px;
+  }
+}
+
+.tooltip__body {
+  background: #ffffc0;
+  padding: 8px 4px 4px 4px;
+}
+
