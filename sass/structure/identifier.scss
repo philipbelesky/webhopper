@@ -3,10 +3,12 @@
 .identifier {
   @extend .flex-vertical-center;
   @extend .flex-1;
-  margin: 2px auto;
-  background: #343434;
+  margin: 1px 0;
+  background: linear-gradient(0deg, #343434, #4c4c4c);
+  border: 1px solid #000;
   border-radius: 5px;
   color: #fff;
+  width: $identifier-width;
 }
 
 // For components without a black block identifier (ie basic parmams)
@@ -15,12 +17,11 @@
   border-radius: 0; // Override parent
   color: #000; // Override parent
   margin: 0 auto; // Override parent
-  padding: $parameter-padding-vertical $parameter-padding-horizontal;
+  width: auto; // Override parent
 
   // Standalone components dont have rotated text
   .label--short, .label--full {
     transform: none;
-    font-size: 9px;
   }
 }
 
@@ -28,9 +29,14 @@
 .identifier__label {
   font-size: 12px;
   margin: 0 auto;
-  padding: $identifier-padding-vertical $identifier-padding-horizontal;
+  position: absolute;
+  // padding: $identifier-padding-vertical $identifier-padding-horizontal;
   transform: rotate(-90deg);
   transform-origin: center center 0;
+  white-space: nowrap; // Label is always a single line
+  width: 300px;
+  margin-left: -150px + ($identifier-width / 2);
+  text-align: center;
 }
 
 // Default View
@@ -44,6 +50,8 @@
   height: 24px;
   background-position: center center;
   background-repeat: no-repeat;
+  padding: 0;
+  transform: none;
 }
 
 // Toggle States
@@ -58,9 +66,11 @@
 
 .component--draw-icons {
   .identifier {
-    @extend .identifier--stub; // Act like a standalone when icons are on
-    padding-top: 2px; // Icons get less vertical padding
-    padding-bottom: 2px;
+    @extend .identifier--stub; // Act like a standalone when icons are on 0;
+    border: none;
+    padding: $identifier-icon-padding;
+    margin-left: 0;
+    margin-right: 0;
   }
   .identifier .label--short, .identifier  .label--full {
     display: none;

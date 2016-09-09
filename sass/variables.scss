@@ -8,7 +8,7 @@ $bg-grid-height: 50px;
 // COMPONENT TYPE
 // -----------------------------------------------------------------------------
 
-$base-font-size: 9px;
+$base-font-size: 11px;
 
 // Used for general UI elements. Segoe for Windows, MS Sans Serif for OS X
 $standard-font: normal normal $base-font-size "Segoe UI", "Microsoft Sans Serif";
@@ -26,11 +26,15 @@ $header-font: italic bold $base-font-size "Times New Roman";
 // COMPONENT LAYOUT
 // -----------------------------------------------------------------------------
 
-$identifier-padding-vertical: 0; // Doesnt work properly with rotate atm
-$identifier-padding-horizontal: 3px;
+// $identifier-padding-vertical: 3px; // Doesnt work properly with rotate atm
+// $identifier-padding-horizontal: 10px;
+
+$identifier-icon-padding: 0 0; // Override for icons; no vertical padding etc
+
+$identifier-width: 22px; // The black blob
 
 // Minimim width of a component; basically what it defaults to
-$component-min-width: 43px;
+$component-min-width: 50px;
 
 // -----------------------------------------------------------------------------
 // Parameters
@@ -38,9 +42,15 @@ $component-min-width: 43px;
 
 // The amount of padding around a text parameter and a a title of a input/output
 // less component. Determinitative of final heights
-$parameter-padding-horizontal: 7px;
-$parameter-padding-vertical: 6px;
-$parameter-inner-padding: $parameter-padding-horizontal / 2;
+
+// Full names
+$parameter-short-vertical-padding: 4.5px;
+$parameter-short-inner-padding: 5px;
+$parameter-short-outer-padding: 8px;
+
+$parameter-long-vertical-padding: 8px;
+$parameter-long-inner-padding: 8px;
+$parameter-long-outer-padding: 5px;
 
 // How much space is between the paramter string and the component's border
 $param-side-padding: 8px;

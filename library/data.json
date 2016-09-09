@@ -28,10 +28,7 @@
         }
     },
     "assets": {
-        "css": [
-            "app/css/webhopper.css",
-            "app/css/adapters.css"
-        ],
+        "css": [],
         "js": [
             "app/js/webhopper.js"
         ]
@@ -75,7 +72,7 @@
             "components": [
                 {
                     "group": "params",
-                    "name": "number-slider",
+                    "name": "slider",
                     "title": "Number Slider"
                 },
                 {
@@ -122,6 +119,42 @@
                     "group": "params",
                     "name": "panel",
                     "title": "Panel"
+                }
+            ]
+        },
+        {
+            "name": "maths",
+            "title": "Maths",
+            "components": [
+                {
+                    "group": "maths",
+                    "name": "python-script",
+                    "title": "Python Script"
+                },
+                {
+                    "group": "maths",
+                    "name": "vb-script",
+                    "title": "VB Script"
+                },
+                {
+                    "group": "maths",
+                    "name": "csharp-script",
+                    "title": "C# Script"
+                },
+                {
+                    "group": "maths",
+                    "name": "expression",
+                    "title": "Expression"
+                },
+                {
+                    "group": "maths",
+                    "name": "display-matrix",
+                    "title": "Display Matrix"
+                },
+                {
+                    "group": "maths",
+                    "name": "interpolate-data",
+                    "title": "Interpolate Data"
                 }
             ]
         },

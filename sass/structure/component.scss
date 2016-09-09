@@ -4,7 +4,6 @@
   @extend .flex-vertical-center;
   display: inline-block;
   font: $standard-font;
-  min-width: $component-min-width;
   margin: 20px; // TEMP
   padding-left: $param-nub-radius; // Space for node nibs
   padding-right: $param-nub-radius; // Space for node nibs
@@ -14,10 +13,33 @@
 .component__inner {
   @extend .flex-1;
   @extend .flex-horizontal;
-  background: linear-gradient( 0deg, #cbcbcb, #dfdedf);
-  box-shadow: inset 0px 12px RGBa(255,255,255,0.2);
+  background: linear-gradient(0deg, #cbcbcb, #dfdedf);
   border: 1px solid #2f2f2f;
   border-radius: 4px;
+  min-width: $component-min-width;
+  position: relative; // Need to clip below element
   z-index: 100;
 }
 
+// Need a psuedo element to make this a gradient
+.component__inner::before {
+  content: "";
+  height: 10px;
+  position: absolute;
+  width: 100%;
+  // TODO: fine tune gradient
+  background: linear-gradient(0deg, RGBa(255,255,255,0.15), RGBa(255,255,255,0.5));
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+// The black bottom tab that some components use as options ie interpolate data
+.component__sub {
+  background: #000;
+  color: #fff;
+  margin: 0 5px;
+  padding: 1px 0 2px;
+  text-align: center;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}

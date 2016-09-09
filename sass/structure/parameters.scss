@@ -6,7 +6,14 @@
   .name {
     flex: 1;
     margin-bottom: 0;
-    padding: $parameter-padding-vertical $parameter-padding-horizontal;
+  }
+
+  .label--short {
+    padding: $parameter-short-vertical-padding $parameter-short-inner-padding;
+  }
+
+  .label--full {
+    padding: $parameter-long-vertical-padding $parameter-long-inner-padding;
   }
 }
 
@@ -14,8 +21,7 @@
   margin-left: $param-nub-diameter * -1;
 
   .name {
-    text-align: left;
-    padding-right: $parameter-inner-padding;
+    padding-right: 0;
   }
 
   .nodes__node::before {
@@ -25,14 +31,21 @@
     border-bottom-left-radius: $param-nub-diameter;
     border-left: $param-nub-border solid #2f2f2f;
   }
+
+  .label--short {
+    padding-left: $parameter-short-outer-padding;
+  }
+
+  .label--full {
+    padding-left: $parameter-long-outer-padding;
+  }
 }
 
 .nodes--flow-out {
   margin-right: $param-nub-diameter * -1;
 
   .name {
-    text-align: right;
-    padding-left: $parameter-inner-padding;
+    padding-left: 0;
   }
 
   .nodes__node::after {
@@ -41,6 +54,14 @@
     border-top-right-radius: $param-nub-diameter;
     border-bottom-right-radius: $param-nub-diameter;
     border-right: $param-nub-border solid #2f2f2f;
+  }
+
+  .label--short {
+    padding-right: $parameter-short-outer-padding;
+  }
+
+  .label--full {
+    padding-right: $parameter-long-outer-padding;
   }
 }
 
