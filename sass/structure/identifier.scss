@@ -14,14 +14,22 @@
 // For components without a black block identifier (ie basic parmams)
 .identifier--stub {
   background: none; // Override parent
-  border-radius: 0; // Override parent
+  border: 0; // Override parent
   color: #000; // Override parent
   margin: 0 auto; // Override parent
   width: auto; // Override parent
 
-  // Standalone components dont have rotated text
-  .label--short, .label--full {
+  .label {
+    // Override identifier__label classes when solo
     transform: none;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+    min-width: 24px;
+  }
+  .label--short,.label--full {
+    padding-top: $parameter-short-vertical-padding;
+    padding-bottom: $parameter-short-vertical-padding;
   }
 }
 
@@ -66,11 +74,9 @@
 
 .component--draw-icons {
   .identifier {
-    @extend .identifier--stub; // Act like a standalone when icons are on 0;
+    background: none; // Override parent
     border: none;
-    padding: $identifier-icon-padding;
-    margin-left: 0;
-    margin-right: 0;
+    width: auto;
   }
   .identifier .label--short, .identifier  .label--full {
     display: none;

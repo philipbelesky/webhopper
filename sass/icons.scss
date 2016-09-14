@@ -1,9 +1,9 @@
 
-.component--type-vector .label--icon {
+.component--type-vector .label--icon, .tooltip--type-vector .label--icon {
   background-image: url("http://rhino.github.io/icons/Params/Vector.png");
  }
 
-.component--type-vectorxyz .label--icon {
+.component--type-vectorxyz .label--icon, .tooltip--type-vectorxyz .label--icon {
   background-image: url("http://rhino.github.io/icons/Vector/Vector_XYZ.png");
  }
 

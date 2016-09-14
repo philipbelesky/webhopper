@@ -18,7 +18,6 @@
   border-radius: 4px;
   min-width: $component-min-width;
   position: relative; // Need to clip below element
-  z-index: 100;
 }
 
 // Need a psuedo element to make this a gradient

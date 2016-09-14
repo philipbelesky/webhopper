@@ -6,10 +6,7 @@ See [examples here](jekyll github page).
 
 # Installation
 
-- Via npm?
-- Via bower?
-
-Import the CSS file or SASS file.
+- Import the CSS file or SASS file into your app
 
 # Development
 

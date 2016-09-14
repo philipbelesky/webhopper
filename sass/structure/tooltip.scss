@@ -3,10 +3,16 @@
   border: 1px solid #000;
   display: none;
   position: absolute;
-  min-width: 120px;
+  min-width: 200px;
+  z-index: 99;
+  color: #000;
 }
-.component:hover .tooltip {
-  display: block;
+
+.tooltip-trigger:hover {
+  cursor: help;
+  .tooltip {
+    display: block;
+  }
 }
 
 .tooltip__header {
@@ -18,7 +24,7 @@
   .label--icon {
     display: inline-block;
     float: left; // Let the title's line-height effect the height
-    margin: -4px 15px 0 2px;
+    margin: -4px 5px 0 2px;
   }
 }
 
