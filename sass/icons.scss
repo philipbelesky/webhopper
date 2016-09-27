@@ -1,16 +1,2296 @@
 
+// PARAMS
+.component--type-circular-arc .label--icon, .tooltip--type-circular-arc .label--icon {
+  background-image: url("../icons/Param/Arc.png");
+}
+.component--type-box .label--icon, .tooltip--type-box .label--icon {
+  background-image: url("../icons/Param/Box.png");
+}
+.component--type-brep .label--icon, .tooltip--type-brep .label--icon {
+  background-image: url("../icons/Param/Brep.png");
+}
+.component--type-circle .label--icon, .tooltip--type-circle .label--icon {
+  background-image: url("../icons/Param/Circle.png");
+}
+.component--type-curve .label--icon, .tooltip--type-curve .label--icon {
+  background-image: url("../icons/Param/Curve.png");
+}
+.component--type-field .label--icon, .tooltip--type-field .label--icon {
+  background-image: url("../icons/Param/Field.png");
+}
+.component--type-geometry .label--icon, .tooltip--type-geometry .label--icon {
+  background-image: url("../icons/Param/Geometry.png");
+}
+.component--type-group .label--icon, .tooltip--type-group .label--icon {
+  background-image: url("../icons/Param/Group.png");
+}
+.component--type-line .label--icon, .tooltip--type-line .label--icon {
+  background-image: url("../icons/Param/Line.png");
+}
+.component--type-mesh .label--icon, .tooltip--type-mesh .label--icon {
+  background-image: url("../icons/Param/Mesh.png");
+}
+.component--type-mesh-face .label--icon, .tooltip--type-mesh-face .label--icon {
+  background-image: url("../icons/Param/MeshFace.png");
+}
+.component--type-plane .label--icon, .tooltip--type-plane .label--icon {
+  background-image: url("../icons/Param/Plane.png");
+}
+.component--type-point .label--icon, .tooltip--type-point .label--icon {
+  background-image: url("../icons/Param/Point.png");
+}
+.component--type-rectangle .label--icon, .tooltip--type-rectangle .label--icon {
+  background-image: url("../icons/Param/Rectangle.png");
+}
+.component--type-surface .label--icon, .tooltip--type-surface .label--icon {
+  background-image: url("../icons/Param/Surface.png");
+}
+.component--type-transform .label--icon, .tooltip--type-transform .label--icon {
+  background-image: url("../icons/Param/Transform.png");
+}
 .component--type-vector .label--icon, .tooltip--type-vector .label--icon {
-  background-image: url("http://rhino.github.io/icons/Params/Vector.png");
- }
-
-.component--type-vectorxyz .label--icon, .tooltip--type-vectorxyz .label--icon {
-  background-image: url("http://rhino.github.io/icons/Vector/Vector_XYZ.png");
- }
-
-.component--type-slider  .label--icon {
- // No Component UI Icon
+  background-image: url("../icons/Param/Vector.png");
+}
+.component--type-boolean .label--icon, .tooltip--type-boolean .label--icon {
+  background-image: url("../icons/Param/Boolean.png");
+}
+.component--type-colour .label--icon, .tooltip--type-colour .label--icon {
+  background-image: url("../icons/Param/Colour.png");
+}
+.component--type-complex .label--icon, .tooltip--type-complex .label--icon {
+  background-image: url("../icons/Param/Complex.png");
+}
+.component--type-culture .label--icon, .tooltip--type-culture .label--icon {
+  background-image: url("../icons/Param/Culture.png");
+}
+.component--type-file-path .label--icon, .tooltip--type-file-path .label--icon {
+  background-image: url("../icons/Param/FilePath.png");
+}
+.component--type-data .label--icon, .tooltip--type-data .label--icon {
+  background-image: url("../icons/Param/GenericObject.png");
+}
+.component--type-guid .label--icon, .tooltip--type-guid .label--icon {
+  background-image: url("../icons/Param/Guid.png");
+}
+.component--type-integer .label--icon, .tooltip--type-integer .label--icon {
+  background-image: url("../icons/Param/Integer.png");
+}
+.component--type-domain .label--icon, .tooltip--type-domain .label--icon {
+  background-image: url("../icons/Param/Interval.png");
+}
+.component--type-domain .label--icon, .tooltip--type-domain .label--icon {
+  background-image: url("../icons/Param/Interval2D.png");
+}
+.component--type-matrix .label--icon, .tooltip--type-matrix .label--icon {
+  background-image: url("../icons/Param/Matrix.png");
+}
+.component--type-number .label--icon, .tooltip--type-number .label--icon {
+  background-image: url("../icons/Param/Number.png");
+}
+.component--type-shader .label--icon, .tooltip--type-shader .label--icon {
+  background-image: url("../icons/Param/OGLShader.png");
+}
+.component--type-text .label--icon, .tooltip--type-text .label--icon {
+  background-image: url("../icons/Param/String.png");
+}
+.component--type-data-path .label--icon, .tooltip--type-data-path .label--icon {
+  background-image: url("../icons/Param/StructurePath.png");
+}
+.component--type-time .label--icon, .tooltip--type-time .label--icon {
+  background-image: url("../icons/Param/Time.png");
 }
 
-.component--type-panel .label--icon {
- // No Component UI Icon
+
+
+.component--type-geometry-cache .label--icon, .tooltip--type-geometry-cache .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_GeometryCache.png");
+}
+.component--type-geometry-pipeline .label--icon, .tooltip--type-geometry-pipeline .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_GeometryPipeline.png");
+}
+.component--type-twisted-box .label--icon, .tooltip--type-twisted-box .label--icon {
+  background-image: url("../icons/SquishyXMorphs.Parameter_TwistedBox.png");
+}
+
+.component--type-boolean-toggle .label--icon, .tooltip--type-boolean-toggle .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_BooleanToggle.png");
+}
+.component--type-button .label--icon, .tooltip--type-button .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_ButtonObject.png");
+}
+.component--type-colour-picker .label--icon, .tooltip--type-colour-picker .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_ColourPickerObject.png");
+}
+.component--type-colour-swatch .label--icon, .tooltip--type-colour-swatch .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_ColourSwatch.png");
+}
+.component--type-colour-wheel .label--icon, .tooltip--type-colour-wheel .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_ColourWheel.png");
+}
+.component--type-control-knob .label--icon, .tooltip--type-control-knob .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_DialKnob.png");
+}
+.component--type-digit-scroller .label--icon, .tooltip--type-digit-scroller .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_DigitScroller.png");
+}
+.component--type-graph-mapper .label--icon, .tooltip--type-graph-mapper .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_GraphMapper.png");
+}
+.component--type-image-sampler .label--icon, .tooltip--type-image-sampler .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_ImageSampler.png");
+}
+.component--type-m-d-slider .label--icon, .tooltip--type-m-d-slider .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_MultiDimensionalSlider.png");
+}
+.component--type-number-slider .label--icon, .tooltip--type-number-slider .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_NumberSlider.png");
+}
+.component--type-panel .label--icon, .tooltip--type-panel .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_Panel.png");
+}
+.component--type-value-list .label--icon, .tooltip--type-value-list .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_ValueList.png");
+}
+.component--type-calendar .label--icon, .tooltip--type-calendar .label--icon {
+  background-image: url("../icons/MathComponents.TimeComponents.CalendarObject.png");
+}
+.component--type-clock .label--icon, .tooltip--type-clock .label--icon {
+  background-image: url("../icons/MathComponents.TimeComponents.ClockObject.png");
+}
+.component--type-read-file .label--icon, .tooltip--type-read-file .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_ReadFileComponent.png");
+}
+.component--type-gradient .label--icon, .tooltip--type-gradient .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_GradientControl.png");
+}
+.component--type-atom-data .label--icon, .tooltip--type-atom-data .label--icon {
+  background-image: url("../icons/IOComponents.AtomExtractor.png");
+}
+.component--type-import-image .label--icon, .tooltip--type-import-image .label--icon {
+  background-image: url("../icons/IOComponents.ImageImporter.png");
+}
+.component--type-import-p-d-b .label--icon, .tooltip--type-import-p-d-b .label--icon {
+  background-image: url("../icons/IOComponents.PDBFileImporter.png");
+}
+.component--type-import-coordinates .label--icon, .tooltip--type-import-coordinates .label--icon {
+  background-image: url("../icons/IOComponents.PointImporter.png");
+}
+.component--type-import-3-d-m .label--icon, .tooltip--type-import-3-d-m .label--icon {
+  background-image: url("../icons/IOComponents.Rhino3dmImporter.png");
+}
+.component--type-import-s-h-p .label--icon, .tooltip--type-import-s-h-p .label--icon {
+  background-image: url("../icons/IOComponents.ShapeFileImporter.png");
+}
+.component--type-cluster-input .label--icon, .tooltip--type-cluster-input .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_ClusterInputHook.png");
+}
+.component--type-cluster-output .label--icon, .tooltip--type-cluster-output .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_ClusterOutputHook.png");
+}
+.component--type-data-recorder .label--icon, .tooltip--type-data-recorder .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_DataRecorder.png");
+}
+.component--type-cherry-picker .label--icon, .tooltip--type-cherry-picker .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_ItemPicker.png");
+}
+.component--type-param-viewer .label--icon, .tooltip--type-param-viewer .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_ParamViewer.png");
+}
+.component--type-gene-pool .label--icon, .tooltip--type-gene-pool .label--icon {
+  background-image: url("../icons/GalapagosComponents.GalapagosGeneListObject.png");
+}
+.component--type-data-dam .label--icon, .tooltip--type-data-dam .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_DataDamComponent.png");
+}
+.component--type-fitness-landscape .label--icon, .tooltip--type-fitness-landscape .label--icon {
+  background-image: url("../icons/GalapagosComponents.GalapagosFitnessLandscape.png");
+}
+.component--type-octopus .label--icon, .tooltip--type-octopus .label--icon {
+  background-image: url("../icons/GH_GA.Octopus.png");
+}
+.component--type-bar-graph .label--icon, .tooltip--type-bar-graph .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_BarGraph.png");
+}
+.component--type-pie-chart .label--icon, .tooltip--type-pie-chart .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_PieChart.png");
+}
+.component--type-quick-graph .label--icon, .tooltip--type-quick-graph .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_QuickGraph.png");
+}
+.component--type-value-tracker .label--icon, .tooltip--type-value-tracker .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_ValueTracker.png");
+}
+.component--type-legend .label--icon, .tooltip--type-legend .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_Legend.png");
+}
+.component--type-custom-preview .label--icon, .tooltip--type-custom-preview .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_CustomPreviewComponent.png");
+}
+.component--type-create-material .label--icon, .tooltip--type-create-material .label--icon {
+  background-image: url("../icons/MathComponents.ColourComponents.Component_CreateOGLMaterial.png");
+}
+.component--type-cloud-display .label--icon, .tooltip--type-cloud-display .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_CloudDisplay.png");
+}
+.component--type-dot-display .label--icon, .tooltip--type-dot-display .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_DotDisplay.png");
+}
+.component--type-text-tag-3-d .label--icon, .tooltip--type-text-tag-3-d .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_TextTag3DComponent.png");
+}
+.component--type-text-tag .label--icon, .tooltip--type-text-tag .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_TextTagComponent.png");
+}
+.component--type-aligned-dimension .label--icon, .tooltip--type-aligned-dimension .label--icon {
+  background-image: url("../icons/DimensionComponents.Component_AlignedDimension.png");
+}
+.component--type-arc-dimension .label--icon, .tooltip--type-arc-dimension .label--icon {
+  background-image: url("../icons/DimensionComponents.Component_AngularArcDimension.png");
+}
+.component--type-circular-dimension .label--icon, .tooltip--type-circular-dimension .label--icon {
+  background-image: url("../icons/DimensionComponents.Component_AngularCircleDimension.png");
+}
+.component--type-angular-dimension .label--icon, .tooltip--type-angular-dimension .label--icon {
+  background-image: url("../icons/DimensionComponents.Component_AngularSimpleDimension.png");
+}
+.component--type-linear-dimension .label--icon, .tooltip--type-linear-dimension .label--icon {
+  background-image: url("../icons/DimensionComponents.Component_LinearDimension.png");
+}
+.component--type-line-dimension .label--icon, .tooltip--type-line-dimension .label--icon {
+  background-image: url("../icons/DimensionComponents.Component_LineDimension.png");
+}
+.component--type-marker-dimension .label--icon, .tooltip--type-marker-dimension .label--icon {
+  background-image: url("../icons/DimensionComponents.Component_MarkerDimension.png");
+}
+.component--type-serial-dimension .label--icon, .tooltip--type-serial-dimension .label--icon {
+  background-image: url("../icons/DimensionComponents.Component_SerialDimension.png");
+}
+.component--type-point-list .label--icon, .tooltip--type-point-list .label--icon {
+  background-image: url("../icons/DimensionComponents.Component_PointListDisplay.png");
+}
+.component--type-point-order .label--icon, .tooltip--type-point-order .label--icon {
+  background-image: url("../icons/DimensionComponents.Component_PointOrderDisplay.png");
+}
+.component--type-vector-display .label--icon, .tooltip--type-vector-display .label--icon {
+  background-image: url("../icons/VectorComponents.VectorComponents.Component_VectorDisplay.png");
+}
+.component--type-vector-display-ex .label--icon, .tooltip--type-vector-display-ex .label--icon {
+  background-image: url("../icons/VectorComponents.VectorComponents.Component_VectorDisplay2.png");
+}
+.component--type-colour-c-m-y-k .label--icon, .tooltip--type-colour-c-m-y-k .label--icon {
+  background-image: url("../icons/MathComponents.ColourComponents.Component_ColourCMYK.png");
+}
+.component--type-colour-h-s-l .label--icon, .tooltip--type-colour-h-s-l .label--icon {
+  background-image: url("../icons/MathComponents.ColourComponents.Component_ColourHSL.png");
+}
+.component--type-colour-l-ab .label--icon, .tooltip--type-colour-l-ab .label--icon {
+  background-image: url("../icons/MathComponents.ColourComponents.Component_ColourLAB.png");
+}
+.component--type-colour-l-c-h .label--icon, .tooltip--type-colour-l-c-h .label--icon {
+  background-image: url("../icons/MathComponents.ColourComponents.Component_ColourLCH.png");
+}
+.component--type-colour-r-g-b .label--icon, .tooltip--type-colour-r-g-b .label--icon {
+  background-image: url("../icons/MathComponents.ColourComponents.Component_ColourRGB.png");
+}
+.component--type-colour-r-g-b-f .label--icon, .tooltip--type-colour-r-g-b-f .label--icon {
+  background-image: url("../icons/MathComponents.ColourComponents.Component_ColourRGB_Fractional.png");
+}
+.component--type-split-a-h-s-v .label--icon, .tooltip--type-split-a-h-s-v .label--icon {
+  background-image: url("../icons/MathComponents.ColourComponents.Component_ColourSplitAHSV.png");
+}
+.component--type-split-a-r-g-b .label--icon, .tooltip--type-split-a-r-g-b .label--icon {
+  background-image: url("../icons/MathComponents.ColourComponents.Component_ColourSplitARGB.png");
+}
+.component--type-colour-x-y-z .label--icon, .tooltip--type-colour-x-y-z .label--icon {
+  background-image: url("../icons/MathComponents.ColourComponents.Component_ColourXYZ.png");
+}
+.component--type-path-mapper .label--icon, .tooltip--type-path-mapper .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Special.GH_PathMapper.png");
+}
+.component--type-clean-tree .label--icon, .tooltip--type-clean-tree .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_CleanTreeComponent.png");
+}
+.component--type-explode-tree .label--icon, .tooltip--type-explode-tree .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_ExplodeTreeComponent.png");
+}
+.component--type-flatten-tree .label--icon, .tooltip--type-flatten-tree .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_FlattenTreeComponent.png");
+}
+.component--type-flip-matrix .label--icon, .tooltip--type-flip-matrix .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_FlipDataMatrixComponent.png");
+}
+.component--type-graft-tree .label--icon, .tooltip--type-graft-tree .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_GraftTreeComponent.png");
+}
+.component--type-match-tree .label--icon, .tooltip--type-match-tree .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_MatchTreeComponent.png");
+}
+.component--type-path-compare .label--icon, .tooltip--type-path-compare .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_PathCompareComponent.png");
+}
+.component--type-prune-tree .label--icon, .tooltip--type-prune-tree .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_PruneTreeComponent.png");
+}
+.component--type-replace-paths .label--icon, .tooltip--type-replace-paths .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_ReplacePathComponent.png");
+}
+.component--type-shift-paths .label--icon, .tooltip--type-shift-paths .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_ShiftDataPathComponent.png");
+}
+.component--type-simplify-tree .label--icon, .tooltip--type-simplify-tree .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_SimplifyTreeComponent.png");
+}
+.component--type-stream-filter .label--icon, .tooltip--type-stream-filter .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_StreamFilterComponent.png");
+}
+.component--type-stream-gate .label--icon, .tooltip--type-stream-gate .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_StreamGateComponent.png");
+}
+.component--type-split-tree .label--icon, .tooltip--type-split-tree .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_TreeSplitComponent.png");
+}
+.component--type-trim-tree .label--icon, .tooltip--type-trim-tree .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_TrimTreeComponent.png");
+}
+.component--type-unflatten-tree .label--icon, .tooltip--type-unflatten-tree .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_UnflattenTreeComponent.png");
+}
+.component--type-construct-path .label--icon, .tooltip--type-construct-path .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_ConstructBranchPath.png");
+}
+.component--type-deconstruct-path .label--icon, .tooltip--type-deconstruct-path .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_DeconstructBranchPath.png");
+}
+.component--type-relative-item .label--icon, .tooltip--type-relative-item .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_RelativeItem.png");
+}
+.component--type-relative-items .label--icon, .tooltip--type-relative-items .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_RelativeItem2.png");
+}
+.component--type-tree-branch .label--icon, .tooltip--type-tree-branch .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_TreeBranch.png");
+}
+.component--type-tree-item .label--icon, .tooltip--type-tree-item .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_TreeItem.png");
+}
+.component--type-tree-statistics .label--icon, .tooltip--type-tree-statistics .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_TreeStatistics.png");
+}
+.component--type-entwine .label--icon, .tooltip--type-entwine .label--icon {
+  background-image: url("../icons/MathComponents.MergeComponents.Component_Entwine.png");
+}
+.component--type-merge .label--icon, .tooltip--type-merge .label--icon {
+  background-image: url("../icons/MathComponents.MergeComponents.Component_MergeVariable.png");
+}
+.component--type-combine-data .label--icon, .tooltip--type-combine-data .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_CombineNonNulls.png");
+}
+.component--type-dispatch .label--icon, .tooltip--type-dispatch .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_Dispatch.png");
+}
+.component--type-insert-items .label--icon, .tooltip--type-insert-items .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_InsertItems.png");
+}
+.component--type-null-item .label--icon, .tooltip--type-null-item .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_IsNullOrInvalid.png");
+}
+.component--type-item-index .label--icon, .tooltip--type-item-index .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_ItemIndex.png");
+}
+.component--type-list-item .label--icon, .tooltip--type-list-item .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_ListItemVariable.png");
+}
+.component--type-list-length .label--icon, .tooltip--type-list-length .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_ListLength.png");
+}
+.component--type-cross-reference .label--icon, .tooltip--type-cross-reference .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_MatchListCrossReference.png");
+}
+.component--type-longest-list .label--icon, .tooltip--type-longest-list .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_MatchListLongest.png");
+}
+.component--type-shortest-list .label--icon, .tooltip--type-shortest-list .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_MatchListShortest.png");
+}
+.component--type-partition-list .label--icon, .tooltip--type-partition-list .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_PartitionList.png");
+}
+.component--type-pick-apos-n-apos-choose .label--icon, .tooltip--type-pick-apos-n-apos-choose .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_PickNChoose.png");
+}
+.component--type-replace-items .label--icon, .tooltip--type-replace-items .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_ReplaceItems.png");
+}
+.component--type-replace-nulls .label--icon, .tooltip--type-replace-nulls .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_ReplaceNull.png");
+}
+.component--type-reverse-list .label--icon, .tooltip--type-reverse-list .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_ReverseList.png");
+}
+.component--type-shift-list .label--icon, .tooltip--type-shift-list .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_ShiftList.png");
+}
+.component--type-sift-pattern .label--icon, .tooltip--type-sift-pattern .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_SiftPattern.png");
+}
+.component--type-sort-list .label--icon, .tooltip--type-sort-list .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_SortList.png");
+}
+.component--type-split-list .label--icon, .tooltip--type-split-list .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_SplitList.png");
+}
+.component--type-sub-list .label--icon, .tooltip--type-sub-list .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_SubList.png");
+}
+.component--type-weave .label--icon, .tooltip--type-weave .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_Weave.png");
+}
+.component--type-cull-index .label--icon, .tooltip--type-cull-index .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_CullIndex.png");
+}
+.component--type-cull-nth .label--icon, .tooltip--type-cull-nth .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_CullNthItem.png");
+}
+.component--type-cull-pattern .label--icon, .tooltip--type-cull-pattern .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_CullPattern.png");
+}
+.component--type-duplicate-data .label--icon, .tooltip--type-duplicate-data .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_DuplicateData.png");
+}
+.component--type-random-reduce .label--icon, .tooltip--type-random-reduce .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_RandomReduce.png");
+}
+.component--type-repeat-data .label--icon, .tooltip--type-repeat-data .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_RepeatData.png");
+}
+.component--type-stack-data .label--icon, .tooltip--type-stack-data .label--icon {
+  background-image: url("../icons/MathComponents.ArrayComponents.Component_StackData.png");
+}
+.component--type-sequence .label--icon, .tooltip--type-sequence .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.Component_CharSequence.png");
+}
+.component--type-fibonacci .label--icon, .tooltip--type-fibonacci .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.Component_Fibonacci.png");
+}
+.component--type-jitter .label--icon, .tooltip--type-jitter .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.Component_Jitter.png");
+}
+.component--type-random .label--icon, .tooltip--type-random .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.Component_Random.png");
+}
+.component--type-range .label--icon, .tooltip--type-range .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.Component_Range.png");
+}
+.component--type-series .label--icon, .tooltip--type-series .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.Component_Series.png");
+}
+.component--type-create-set .label--icon, .tooltip--type-create-set .label--icon {
+  background-image: url("../icons/MathComponents.SetComponents.Component_CreateSet.png");
+}
+.component--type-find-similar-member .label--icon, .tooltip--type-find-similar-member .label--icon {
+  background-image: url("../icons/MathComponents.SetComponents.Component_FindNearest.png");
+}
+.component--type-disjoint .label--icon, .tooltip--type-disjoint .label--icon {
+  background-image: url("../icons/MathComponents.SetComponents.Component_IsDisjoint.png");
+}
+.component--type-sub-set .label--icon, .tooltip--type-sub-set .label--icon {
+  background-image: url("../icons/MathComponents.SetComponents.Component_IsSubset.png");
+}
+.component--type-key-value-search .label--icon, .tooltip--type-key-value-search .label--icon {
+  background-image: url("../icons/MathComponents.SetComponents.Component_KeyMemberSearch.png");
+}
+.component--type-delete-consecutive .label--icon, .tooltip--type-delete-consecutive .label--icon {
+  background-image: url("../icons/MathComponents.SetComponents.Component_RemoveConsecutive.png");
+}
+.component--type-replace-members .label--icon, .tooltip--type-replace-members .label--icon {
+  background-image: url("../icons/MathComponents.SetComponents.Component_ReplaceSetMembers.png");
+}
+.component--type-carthesian-product .label--icon, .tooltip--type-carthesian-product .label--icon {
+  background-image: url("../icons/MathComponents.SetComponents.Component_SetCarthesianProduct.png");
+}
+.component--type-set-difference .label--icon, .tooltip--type-set-difference .label--icon {
+  background-image: url("../icons/MathComponents.SetComponents.Component_SetDifference.png");
+}
+.component--type-set-intersection .label--icon, .tooltip--type-set-intersection .label--icon {
+  background-image: url("../icons/MathComponents.SetComponents.Component_SetIntersection.png");
+}
+.component--type-member-index .label--icon, .tooltip--type-member-index .label--icon {
+  background-image: url("../icons/MathComponents.SetComponents.Component_SetMemberIndex.png");
+}
+.component--type-set-difference-s .label--icon, .tooltip--type-set-difference-s .label--icon {
+  background-image: url("../icons/MathComponents.SetComponents.Component_SetSymmetricDifference.png");
+}
+.component--type-set-majority .label--icon, .tooltip--type-set-majority .label--icon {
+  background-image: url("../icons/MathComponents.SetComponents.Component_SetTripleMajority.png");
+}
+.component--type-set-union .label--icon, .tooltip--type-set-union .label--icon {
+  background-image: url("../icons/MathComponents.SetComponents.Component_SetUnion.png");
+}
+.component--type-text-case .label--icon, .tooltip--type-text-case .label--icon {
+  background-image: url("../icons/MathComponents.StringComponents.Component_Casing.png");
+}
+.component--type-concatenate .label--icon, .tooltip--type-concatenate .label--icon {
+  background-image: url("../icons/MathComponents.StringComponents.Component_Concatenate.png");
+}
+.component--type-format .label--icon, .tooltip--type-format .label--icon {
+  background-image: url("../icons/MathComponents.StringComponents.Component_FormatText.png");
+}
+.component--type-text-fragment .label--icon, .tooltip--type-text-fragment .label--icon {
+  background-image: url("../icons/MathComponents.StringComponents.Component_Fragment.png");
+}
+.component--type-replace-text .label--icon, .tooltip--type-replace-text .label--icon {
+  background-image: url("../icons/MathComponents.StringComponents.Component_ReplaceText.png");
+}
+.component--type-sort-text .label--icon, .tooltip--type-sort-text .label--icon {
+  background-image: url("../icons/MathComponents.StringComponents.Component_SortString.png");
+}
+.component--type-text-distance .label--icon, .tooltip--type-text-distance .label--icon {
+  background-image: url("../icons/MathComponents.StringComponents.Component_TextDistance.png");
+}
+.component--type-text-join .label--icon, .tooltip--type-text-join .label--icon {
+  background-image: url("../icons/MathComponents.StringComponents.Component_TextJoin.png");
+}
+.component--type-text-length .label--icon, .tooltip--type-text-length .label--icon {
+  background-image: url("../icons/MathComponents.StringComponents.Component_TextLength.png");
+}
+.component--type-match-text .label--icon, .tooltip--type-match-text .label--icon {
+  background-image: url("../icons/MathComponents.StringComponents.Component_TextMatch.png");
+}
+.component--type-text-split .label--icon, .tooltip--type-text-split .label--icon {
+  background-image: url("../icons/MathComponents.StringComponents.Component_TextSplit.png");
+}
+.component--type-characters .label--icon, .tooltip--type-characters .label--icon {
+  background-image: url("../icons/MathComponents.StringComponents.Component_TextToChars.png");
+}
+.component--type-text-trim .label--icon, .tooltip--type-text-trim .label--icon {
+  background-image: url("../icons/MathComponents.StringComponents.Component_TextTrim.png");
+}
+.component--type-arc .label--icon, .tooltip--type-arc .label--icon {
+  background-image: url("../icons/CurveComponents.Component_Arc.png");
+}
+.component--type-modified-arc .label--icon, .tooltip--type-modified-arc .label--icon {
+  background-image: url("../icons/CurveComponents.Component_Arc2.png");
+}
+.component--type-arc-3-pt .label--icon, .tooltip--type-arc-3-pt .label--icon {
+  background-image: url("../icons/CurveComponents.Component_Arc3Pt.png");
+}
+.component--type-arc-s-e-d .label--icon, .tooltip--type-arc-s-e-d .label--icon {
+  background-image: url("../icons/CurveComponents.Component_ArcSED.png");
+}
+.component--type-bi-arc .label--icon, .tooltip--type-bi-arc .label--icon {
+  background-image: url("../icons/CurveComponents.Component_BiArc.png");
+}
+.component--type-circle .label--icon, .tooltip--type-circle .label--icon {
+  background-image: url("../icons/CurveComponents.Component_Circle.png");
+}
+.component--type-circle-3-pt .label--icon, .tooltip--type-circle-3-pt .label--icon {
+  background-image: url("../icons/CurveComponents.Component_Circle3Pt.png");
+}
+.component--type-circle-c-n-r .label--icon, .tooltip--type-circle-c-n-r .label--icon {
+  background-image: url("../icons/CurveComponents.Component_CircleCNR.png");
+}
+.component--type-circle-fit .label--icon, .tooltip--type-circle-fit .label--icon {
+  background-image: url("../icons/CurveComponents.Component_CircleFitPoints.png");
+}
+.component--type-circle-tan-tan .label--icon, .tooltip--type-circle-tan-tan .label--icon {
+  background-image: url("../icons/CurveComponents.Component_CircleTanTan.png");
+}
+.component--type-circle-tan-tan-tan .label--icon, .tooltip--type-circle-tan-tan-tan .label--icon {
+  background-image: url("../icons/CurveComponents.Component_CircleTanTanTan.png");
+}
+.component--type-ellipse .label--icon, .tooltip--type-ellipse .label--icon {
+  background-image: url("../icons/CurveComponents.Component_Ellipse.png");
+}
+.component--type-in-circle .label--icon, .tooltip--type-in-circle .label--icon {
+  background-image: url("../icons/CurveComponents.Component_InCircle.png");
+}
+.component--type-in-ellipse .label--icon, .tooltip--type-in-ellipse .label--icon {
+  background-image: url("../icons/CurveComponents.Component_InEllipse.png");
+}
+.component--type-line .label--icon, .tooltip--type-line .label--icon {
+  background-image: url("../icons/CurveComponents.Component_Line.png");
+}
+.component--type-line-2-plane .label--icon, .tooltip--type-line-2-plane .label--icon {
+  background-image: url("../icons/CurveComponents.Component_Line2Plane.png");
+}
+.component--type-line-4-pt .label--icon, .tooltip--type-line-4-pt .label--icon {
+  background-image: url("../icons/CurveComponents.Component_Line4Pt.png");
+}
+.component--type-fit-line .label--icon, .tooltip--type-fit-line .label--icon {
+  background-image: url("../icons/CurveComponents.Component_LineFitPoints.png");
+}
+.component--type-line-s-d-l .label--icon, .tooltip--type-line-s-d-l .label--icon {
+  background-image: url("../icons/CurveComponents.Component_LineSDL.png");
+}
+.component--type-polygon .label--icon, .tooltip--type-polygon .label--icon {
+  background-image: url("../icons/CurveComponents.Component_Polygon.png");
+}
+.component--type-rectangle .label--icon, .tooltip--type-rectangle .label--icon {
+  background-image: url("../icons/CurveComponents.Component_Rectangle.png");
+}
+.component--type-rectangle-2-pt .label--icon, .tooltip--type-rectangle-2-pt .label--icon {
+  background-image: url("../icons/CurveComponents.Component_Rectangle2Pt.png");
+}
+.component--type-rectangle-3-pt .label--icon, .tooltip--type-rectangle-3-pt .label--icon {
+  background-image: url("../icons/CurveComponents.Component_Rectangle3Pt.png");
+}
+.component--type-tangent-arcs .label--icon, .tooltip--type-tangent-arcs .label--icon {
+  background-image: url("../icons/CurveComponents.Component_TangentArcs.png");
+}
+.component--type-tangent-lines .label--icon, .tooltip--type-tangent-lines .label--icon {
+  background-image: url("../icons/CurveComponents.Component_TangentLines.png");
+}
+.component--type-tangent-lines-ex .label--icon, .tooltip--type-tangent-lines-ex .label--icon {
+  background-image: url("../icons/CurveComponents.Component_TangentLinesEx.png");
+}
+.component--type-tangent-lines-in .label--icon, .tooltip--type-tangent-lines-in .label--icon {
+  background-image: url("../icons/CurveComponents.Component_TangentLinesIn.png");
+}
+.component--type-explode .label--icon, .tooltip--type-explode .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_ExplodeCurve.png");
+}
+.component--type-polyline-collapse .label--icon, .tooltip--type-polyline-collapse .label--icon {
+  background-image: url("../icons/CurveComponents.Component_CollapsePolylineSegments.png");
+}
+.component--type-seam .label--icon, .tooltip--type-seam .label--icon {
+  background-image: url("../icons/CurveComponents.Component_CurveSeam.png");
+}
+.component--type-curve-to-polyline .label--icon, .tooltip--type-curve-to-polyline .label--icon {
+  background-image: url("../icons/CurveComponents.Component_CurveToPolyline.png");
+}
+.component--type-extend-curve .label--icon, .tooltip--type-extend-curve .label--icon {
+  background-image: url("../icons/CurveComponents.Component_ExtendCurve.png");
+}
+.component--type-fillet .label--icon, .tooltip--type-fillet .label--icon {
+  background-image: url("../icons/CurveComponents.Component_FilletCorners.png");
+}
+.component--type-fillet-distance .label--icon, .tooltip--type-fillet-distance .label--icon {
+  background-image: url("../icons/CurveComponents.Component_FilletCornersDistance.png");
+}
+.component--type-fillet .label--icon, .tooltip--type-fillet .label--icon {
+  background-image: url("../icons/CurveComponents.Component_FilletCurve.png");
+}
+.component--type-fit-curve .label--icon, .tooltip--type-fit-curve .label--icon {
+  background-image: url("../icons/CurveComponents.Component_FitCurve.png");
+}
+.component--type-flip-curve .label--icon, .tooltip--type-flip-curve .label--icon {
+  background-image: url("../icons/CurveComponents.Component_FlipCurve.png");
+}
+.component--type-join-curves .label--icon, .tooltip--type-join-curves .label--icon {
+  background-image: url("../icons/CurveComponents.Component_JoinCurves.png");
+}
+.component--type-offset .label--icon, .tooltip--type-offset .label--icon {
+  background-image: url("../icons/CurveComponents.Component_OffsetCurve.png");
+}
+.component--type-offset-loose .label--icon, .tooltip--type-offset-loose .label--icon {
+  background-image: url("../icons/CurveComponents.Component_OffsetCurveLoose.png");
+}
+.component--type-offset-on-srf .label--icon, .tooltip--type-offset-on-srf .label--icon {
+  background-image: url("../icons/CurveComponents.Component_OffsetCurveOnSurface.png");
+}
+.component--type-project .label--icon, .tooltip--type-project .label--icon {
+  background-image: url("../icons/CurveComponents.Component_ProjectCurve.png");
+}
+.component--type-pull-curve .label--icon, .tooltip--type-pull-curve .label--icon {
+  background-image: url("../icons/CurveComponents.Component_PullCurve.png");
+}
+.component--type-rebuild-curve .label--icon, .tooltip--type-rebuild-curve .label--icon {
+  background-image: url("../icons/CurveComponents.Component_RebuildCurve.png");
+}
+.component--type-reduce .label--icon, .tooltip--type-reduce .label--icon {
+  background-image: url("../icons/CurveComponents.Component_ReducePolyline.png");
+}
+.component--type-simplify-curve .label--icon, .tooltip--type-simplify-curve .label--icon {
+  background-image: url("../icons/CurveComponents.Component_SimplifyCurve.png");
+}
+.component--type-smooth-polyline .label--icon, .tooltip--type-smooth-polyline .label--icon {
+  background-image: url("../icons/CurveComponents.Component_SmoothPolyline.png");
+}
+.component--type-point-on-curve .label--icon, .tooltip--type-point-on-curve .label--icon {
+  background-image: url("../icons/CurveComponents.Component_CurvePointAt.png");
+}
+.component--type-curvature-graph .label--icon, .tooltip--type-curvature-graph .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_CurvatureGraphComponent.png");
+}
+.component--type-evaluate-length .label--icon, .tooltip--type-evaluate-length .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_ArcLengthPoint.png");
+}
+.component--type-closed .label--icon, .tooltip--type-closed .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_Closed.png");
+}
+.component--type-control-points .label--icon, .tooltip--type-control-points .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_ControlPoints.png");
+}
+.component--type-control-polygon .label--icon, .tooltip--type-control-polygon .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_ControlPolygon.png");
+}
+.component--type-curve-closest-point .label--icon, .tooltip--type-curve-closest-point .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_CurveClosestPoint.png");
+}
+.component--type-curvature .label--icon, .tooltip--type-curvature .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_CurveCurvature.png");
+}
+.component--type-derivatives .label--icon, .tooltip--type-derivatives .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_CurveDerivatives.png");
+}
+.component--type-discontinuity .label--icon, .tooltip--type-discontinuity .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_CurveDiscontinuity.png");
+}
+.component--type-extremes .label--icon, .tooltip--type-extremes .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_CurveExtremes.png");
+}
+.component--type-curve-nearest-object .label--icon, .tooltip--type-curve-nearest-object .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_CurveNearestObject.png");
+}
+.component--type-curve-proximity .label--icon, .tooltip--type-curve-proximity .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_CurveProximity.png");
+}
+.component--type-segment-lengths .label--icon, .tooltip--type-segment-lengths .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_CurveSegmentLengths.png");
+}
+.component--type-curve-side .label--icon, .tooltip--type-curve-side .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_CurveSide.png");
+}
+.component--type-torsion .label--icon, .tooltip--type-torsion .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_CurveTorsion.png");
+}
+.component--type-deconstruct-arc .label--icon, .tooltip--type-deconstruct-arc .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_DeconstructArc.png");
+}
+.component--type-deconstuct-rectangle .label--icon, .tooltip--type-deconstuct-rectangle .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_DeconstructRectangle.png");
+}
+.component--type-end-points .label--icon, .tooltip--type-end-points .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_EndPoints.png");
+}
+.component--type-evaluate-curve .label--icon, .tooltip--type-evaluate-curve .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_EvaluateCurve.png");
+}
+.component--type-length .label--icon, .tooltip--type-length .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_Length.png");
+}
+.component--type-length-domain .label--icon, .tooltip--type-length-domain .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_LengthDomain.png");
+}
+.component--type-length-parameter .label--icon, .tooltip--type-length-parameter .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_LengthParameter.png");
+}
+.component--type-planar .label--icon, .tooltip--type-planar .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_Planar.png");
+}
+.component--type-point-in-curve .label--icon, .tooltip--type-point-in-curve .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_PointInRegion.png");
+}
+.component--type-point-in-curves .label--icon, .tooltip--type-point-in-curves .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_PointInRegions.png");
+}
+.component--type-polygon-center .label--icon, .tooltip--type-polygon-center .label--icon {
+  background-image: url("../icons/AnalysisComponents.Component_PolygonCenterPoint.png");
+}
+.component--type-curve-frame .label--icon, .tooltip--type-curve-frame .label--icon {
+  background-image: url("../icons/VectorComponents.DivisionComponents.Component_CurveFrame.png");
+}
+.component--type-horizontal-frame .label--icon, .tooltip--type-horizontal-frame .label--icon {
+  background-image: url("../icons/VectorComponents.DivisionComponents.Component_CurveFrameHorizontal.png");
+}
+.component--type-perp-frame .label--icon, .tooltip--type-perp-frame .label--icon {
+  background-image: url("../icons/VectorComponents.DivisionComponents.Component_CurvePerpFrame.png");
+}
+.component--type-bezier-span .label--icon, .tooltip--type-bezier-span .label--icon {
+  background-image: url("../icons/CurveComponents.Component_BezierSpan.png");
+}
+.component--type-blend-curve .label--icon, .tooltip--type-blend-curve .label--icon {
+  background-image: url("../icons/CurveComponents.Component_BlendCurve.png");
+}
+.component--type-blend-curve-pt .label--icon, .tooltip--type-blend-curve-pt .label--icon {
+  background-image: url("../icons/CurveComponents.Component_BlendCurveThroughPoint.png");
+}
+.component--type-catenary .label--icon, .tooltip--type-catenary .label--icon {
+  background-image: url("../icons/CurveComponents.Component_Catenary.png");
+}
+.component--type-connect-curves .label--icon, .tooltip--type-connect-curves .label--icon {
+  background-image: url("../icons/CurveComponents.Component_ConnectCurves.png");
+}
+.component--type-nurbs-curve .label--icon, .tooltip--type-nurbs-curve .label--icon {
+  background-image: url("../icons/CurveComponents.Component_Curve.png");
+}
+.component--type-interpolate .label--icon, .tooltip--type-interpolate .label--icon {
+  background-image: url("../icons/CurveComponents.Component_InterpCurve.png");
+}
+.component--type-curve-on-surface .label--icon, .tooltip--type-curve-on-surface .label--icon {
+  background-image: url("../icons/CurveComponents.Component_InterpCurveOnSurface.png");
+}
+.component--type-interpolate-t .label--icon, .tooltip--type-interpolate-t .label--icon {
+  background-image: url("../icons/CurveComponents.Component_InterpCurveWithTangents.png");
+}
+.component--type-tangent-curve .label--icon, .tooltip--type-tangent-curve .label--icon {
+  background-image: url("../icons/CurveComponents.Component_InterpTangentialCurve.png");
+}
+.component--type-iso-curve .label--icon, .tooltip--type-iso-curve .label--icon {
+  background-image: url("../icons/CurveComponents.Component_IsoCurve.png");
+}
+.component--type-kinky-curve .label--icon, .tooltip--type-kinky-curve .label--icon {
+  background-image: url("../icons/CurveComponents.Component_KinkyCurve.png");
+}
+.component--type-nurbs-curve .label--icon, .tooltip--type-nurbs-curve .label--icon {
+  background-image: url("../icons/CurveComponents.Component_NurbsCurve.png");
+}
+.component--type-knot-vector .label--icon, .tooltip--type-knot-vector .label--icon {
+  background-image: url("../icons/CurveComponents.Component_NurbsKnotVector.png");
+}
+.component--type-poly-arc .label--icon, .tooltip--type-poly-arc .label--icon {
+  background-image: url("../icons/CurveComponents.Component_PolyArc.png");
+}
+.component--type-poly-line .label--icon, .tooltip--type-poly-line .label--icon {
+  background-image: url("../icons/CurveComponents.Component_Polyline.png");
+}
+.component--type-geodesic .label--icon, .tooltip--type-geodesic .label--icon {
+  background-image: url("../icons/CurveComponents.Component_ShortPath.png");
+}
+.component--type-sub-curve .label--icon, .tooltip--type-sub-curve .label--icon {
+  background-image: url("../icons/CurveComponents.Component_SubCurve.png");
+}
+.component--type-tween-curve .label--icon, .tooltip--type-tween-curve .label--icon {
+  background-image: url("../icons/CurveComponents.Component_TweenCurves.png");
+}
+.component--type-dash-pattern .label--icon, .tooltip--type-dash-pattern .label--icon {
+  background-image: url("../icons/CurveComponents.Component_DashCurve.png");
+}
+.component--type-shatter .label--icon, .tooltip--type-shatter .label--icon {
+  background-image: url("../icons/CurveComponents.Component_ShatterCurve.png");
+}
+.component--type-contour .label--icon, .tooltip--type-contour .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_CurveContour1.png");
+}
+.component--type-contour-ex .label--icon, .tooltip--type-contour-ex .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_CurveContour2.png");
+}
+.component--type-curve-frames .label--icon, .tooltip--type-curve-frames .label--icon {
+  background-image: url("../icons/VectorComponents.DivisionComponents.Component_CurveFrames.png");
+}
+.component--type-horizontal-frames .label--icon, .tooltip--type-horizontal-frames .label--icon {
+  background-image: url("../icons/VectorComponents.DivisionComponents.Component_CurveFramesHorizontal.png");
+}
+.component--type-perp-frames .label--icon, .tooltip--type-perp-frames .label--icon {
+  background-image: url("../icons/VectorComponents.DivisionComponents.Component_CurvePerpFrames.png");
+}
+.component--type-divide-curve .label--icon, .tooltip--type-divide-curve .label--icon {
+  background-image: url("../icons/VectorComponents.DivisionComponents.Component_DivideCurve.png");
+}
+.component--type-divide-distance .label--icon, .tooltip--type-divide-distance .label--icon {
+  background-image: url("../icons/VectorComponents.DivisionComponents.Component_DivideCurveDistance.png");
+}
+.component--type-divide-length .label--icon, .tooltip--type-divide-length .label--icon {
+  background-image: url("../icons/VectorComponents.DivisionComponents.Component_DivideCurveLength.png");
+}
+.component--type-smooth-numbers .label--icon, .tooltip--type-smooth-numbers .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_SmoothNumbersComponent.png");
+}
+.component--type-complex-argument .label--icon, .tooltip--type-complex-argument .label--icon {
+  background-image: url("../icons/MathComponents.ComplexComponents.Component_ComplexArgument.png");
+}
+.component--type-complex-components .label--icon, .tooltip--type-complex-components .label--icon {
+  background-image: url("../icons/MathComponents.ComplexComponents.Component_ComplexComponent.png");
+}
+.component--type-complex-conjugate .label--icon, .tooltip--type-complex-conjugate .label--icon {
+  background-image: url("../icons/MathComponents.ComplexComponents.Component_ComplexConjugate.png");
+}
+.component--type-complex-modulus .label--icon, .tooltip--type-complex-modulus .label--icon {
+  background-image: url("../icons/MathComponents.ComplexComponents.Component_ComplexModulus.png");
+}
+.component--type-create-complex .label--icon, .tooltip--type-create-complex .label--icon {
+  background-image: url("../icons/MathComponents.ComplexComponents.Component_CreateComplex.png");
+}
+.component--type-natural-logarithm .label--icon, .tooltip--type-natural-logarithm .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.Component_E.png");
+}
+.component--type-epsilon .label--icon, .tooltip--type-epsilon .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.Component_Epsilon.png");
+}
+.component--type-golden-ratio .label--icon, .tooltip--type-golden-ratio .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.Component_Phi.png");
+}
+.component--type-pi .label--icon, .tooltip--type-pi .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.Component_Pi.png");
+}
+.component--type-average .label--icon, .tooltip--type-average .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Component_Average.png");
+}
+.component--type-blur-numbers .label--icon, .tooltip--type-blur-numbers .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Component_BlurNumbers.png");
+}
+.component--type-extremes .label--icon, .tooltip--type-extremes .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Component_Extremes.png");
+}
+.component--type-truncate .label--icon, .tooltip--type-truncate .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Component_Truncate.png");
+}
+.component--type-weighted-average .label--icon, .tooltip--type-weighted-average .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Component_WeightedAverage.png");
+}
+.component--type-round .label--icon, .tooltip--type-round .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Function_Round.png");
+}
+.component--type-maximum .label--icon, .tooltip--type-maximum .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Operator_Maximum.png");
+}
+.component--type-minimum .label--icon, .tooltip--type-minimum .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Operator_Minimum.png");
+}
+.component--type-interpolate-data .label--icon, .tooltip--type-interpolate-data .label--icon {
+  background-image: url("../icons/MathComponents.SetComponents.Component_InterpolateData.png");
+}
+.component--type-display-matrix .label--icon, .tooltip--type-display-matrix .label--icon {
+  background-image: url("../icons/XformComponents.DisplayMatrix.png");
+}
+.component--type-construct-matrix .label--icon, .tooltip--type-construct-matrix .label--icon {
+  background-image: url("../icons/MathComponents.MatrixComponents.Component_ConstructMatrix.png");
+}
+.component--type-deconstruct-matrix .label--icon, .tooltip--type-deconstruct-matrix .label--icon {
+  background-image: url("../icons/MathComponents.MatrixComponents.Component_DeconstructMatrix.png");
+}
+.component--type-invert-matrix .label--icon, .tooltip--type-invert-matrix .label--icon {
+  background-image: url("../icons/MathComponents.MatrixComponents.Component_InvertMatrix.png");
+}
+.component--type-swap-columns .label--icon, .tooltip--type-swap-columns .label--icon {
+  background-image: url("../icons/MathComponents.MatrixComponents.Component_SwapMatrixColumns.png");
+}
+.component--type-swap-rows .label--icon, .tooltip--type-swap-rows .label--icon {
+  background-image: url("../icons/MathComponents.MatrixComponents.Component_SwapMatrixRows.png");
+}
+.component--type-transpose-matrix .label--icon, .tooltip--type-transpose-matrix .label--icon {
+  background-image: url("../icons/MathComponents.MatrixComponents.Component_TransposeMatrix.png");
+}
+.component--type-gate-and .label--icon, .tooltip--type-gate-and .label--icon {
+  background-image: url("../icons/MathComponents.BooleanOperators.Component_AndGate.png");
+}
+.component--type-gate-majority .label--icon, .tooltip--type-gate-majority .label--icon {
+  background-image: url("../icons/MathComponents.BooleanOperators.Component_BooleanMajorityVote.png");
+}
+.component--type-gate-nand .label--icon, .tooltip--type-gate-nand .label--icon {
+  background-image: url("../icons/MathComponents.BooleanOperators.Component_NandGate.png");
+}
+.component--type-gate-nor .label--icon, .tooltip--type-gate-nor .label--icon {
+  background-image: url("../icons/MathComponents.BooleanOperators.Component_NorGate.png");
+}
+.component--type-gate-not .label--icon, .tooltip--type-gate-not .label--icon {
+  background-image: url("../icons/MathComponents.BooleanOperators.Component_NotGate.png");
+}
+.component--type-gate-or .label--icon, .tooltip--type-gate-or .label--icon {
+  background-image: url("../icons/MathComponents.BooleanOperators.Component_OrGate.png");
+}
+.component--type-gate-xnor .label--icon, .tooltip--type-gate-xnor .label--icon {
+  background-image: url("../icons/MathComponents.BooleanOperators.Component_XnorGate.png");
+}
+<Description>Perform boolean biconditional (XNOR gate).</Description>
+.component--type-gate-xor .label--icon, .tooltip--type-gate-xor .label--icon {
+  background-image: url("../icons/MathComponents.BooleanOperators.Component_XorGate.png");
+}
+.component--type-factorial .label--icon, .tooltip--type-factorial .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.Component_Factorial.png");
+}
+.component--type-absolute .label--icon, .tooltip--type-absolute .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.OperatorAbsolute.png");
+}
+.component--type-negative .label--icon, .tooltip--type-negative .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.OperatorSign.png");
+}
+.component--type-equality .label--icon, .tooltip--type-equality .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Component_EqualTo.png");
+}
+.component--type-larger-than .label--icon, .tooltip--type-larger-than .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Component_LargerThan.png");
+}
+.component--type-mass-addition .label--icon, .tooltip--type-mass-addition .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Component_MassAddition.png");
+}
+.component--type-mass-multiplication .label--icon, .tooltip--type-mass-multiplication .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Component_MassMultiplication.png");
+}
+.component--type-relative-differences .label--icon, .tooltip--type-relative-differences .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Component_RelativeDifferences.png");
+}
+.component--type-similarity .label--icon, .tooltip--type-similarity .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Component_Similarity.png");
+}
+.component--type-smaller-than .label--icon, .tooltip--type-smaller-than .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Component_SmallerThan.png");
+}
+.component--type-addition .label--icon, .tooltip--type-addition .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Component_VariableAddition.png");
+}
+.component--type-division .label--icon, .tooltip--type-division .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Operator_Division.png");
+}
+.component--type-integer-division .label--icon, .tooltip--type-integer-division .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Operator_IntegerDivision.png");
+}
+.component--type-modulus .label--icon, .tooltip--type-modulus .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Operator_Modulus.png");
+}
+.component--type-multiplication .label--icon, .tooltip--type-multiplication .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Operator_Multiplication.png");
+}
+.component--type-power .label--icon, .tooltip--type-power .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Operator_Power.png");
+}
+.component--type-subtraction .label--icon, .tooltip--type-subtraction .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Operator_Subtraction.png");
+}
+.component--type-construct-domain .label--icon, .tooltip--type-construct-domain .label--icon {
+  background-image: url("../icons/MathComponents.DomainComponents.Component_Construct2DInterval.png");
+}
+.component--type-construct-domain .label--icon, .tooltip--type-construct-domain .label--icon {
+  background-image: url("../icons/MathComponents.DomainComponents.Component_Construct2DInterval_Numeric.png");
+}
+.component--type-construct-domain .label--icon, .tooltip--type-construct-domain .label--icon {
+  background-image: url("../icons/MathComponents.DomainComponents.Component_ConstructDomain.png");
+}
+.component--type-deconstruct-domain .label--icon, .tooltip--type-deconstruct-domain .label--icon {
+  background-image: url("../icons/MathComponents.DomainComponents.Component_Deconstruct2DInterval.png");
+}
+.component--type-deconstruct-domain .label--icon, .tooltip--type-deconstruct-domain .label--icon {
+  background-image: url("../icons/MathComponents.DomainComponents.Component_Deconstruct2DInterval_Numeric.png");
+}
+.component--type-deconstruct-domain .label--icon, .tooltip--type-deconstruct-domain .label--icon {
+  background-image: url("../icons/MathComponents.DomainComponents.Component_DeconstructDomain.png");
+}
+.component--type-divide-domain .label--icon, .tooltip--type-divide-domain .label--icon {
+  background-image: url("../icons/MathComponents.DomainComponents.Component_Divide2DInterval.png");
+}
+.component--type-divide-domain .label--icon, .tooltip--type-divide-domain .label--icon {
+  background-image: url("../icons/MathComponents.DomainComponents.Component_DivideInterval.png");
+}
+.component--type-find-domain .label--icon, .tooltip--type-find-domain .label--icon {
+  background-image: url("../icons/MathComponents.DomainComponents.Component_FindDomain.png");
+}
+.component--type-includes .label--icon, .tooltip--type-includes .label--icon {
+  background-image: url("../icons/MathComponents.DomainComponents.Component_Includes.png");
+}
+.component--type-consecutive-domains .label--icon, .tooltip--type-consecutive-domains .label--icon {
+  background-image: url("../icons/MathComponents.DomainComponents.Component_MakeConsecutiveDomains.png");
+}
+.component--type-bounds .label--icon, .tooltip--type-bounds .label--icon {
+  background-image: url("../icons/MathComponents.DomainComponents.Component_NumericBounds.png");
+}
+.component--type-bounds-2-d .label--icon, .tooltip--type-bounds-2-d .label--icon {
+  background-image: url("../icons/MathComponents.DomainComponents.Component_NumericBounds2D.png");
+}
+.component--type-remap-numbers .label--icon, .tooltip--type-remap-numbers .label--icon {
+  background-image: url("../icons/MathComponents.DomainComponents.Component_RemapNumbers.png");
+}
+.component--type-evaluate .label--icon, .tooltip--type-evaluate .label--icon {
+  background-image: url("../icons/MathComponents.ExpressionComponents.Component_Evaluate.png");
+}
+.component--type-expression .label--icon, .tooltip--type-expression .label--icon {
+  background-image: url("../icons/MathComponents.ExpressionComponents.Component_Expression.png");
+}
+.component--type-c-script .label--icon, .tooltip--type-c-script .label--icon {
+  background-image: url("../icons/ScriptComponents.Component_CSNET_Script.png");
+}
+.component--type-v-b-script .label--icon, .tooltip--type-v-b-script .label--icon {
+  background-image: url("../icons/ScriptComponents.Component_VBNET_Script.png");
+}
+.component--type-python-script .label--icon, .tooltip--type-python-script .label--icon {
+  background-image: url("../icons/GhPython.Component.ZuiPythonComponent.png");
+}
+.component--type-power-of-10 .label--icon, .tooltip--type-power-of-10 .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.Func10Power.png");
+}
+.component--type-power-of-2 .label--icon, .tooltip--type-power-of-2 .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.Func2Power.png");
+}
+.component--type-cube .label--icon, .tooltip--type-cube .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncCube.png");
+}
+.component--type-cube-root .label--icon, .tooltip--type-cube-root .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncCubeRoot.png");
+}
+.component--type-power-of-e .label--icon, .tooltip--type-power-of-e .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncExponential.png");
+}
+.component--type-natural-logarithm .label--icon, .tooltip--type-natural-logarithm .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncLog.png");
+}
+.component--type-logarithm .label--icon, .tooltip--type-logarithm .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncLog10.png");
+}
+.component--type-one-over-x .label--icon, .tooltip--type-one-over-x .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncOneOverX.png");
+}
+.component--type-square .label--icon, .tooltip--type-square .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncSquare.png");
+}
+.component--type-square-root .label--icon, .tooltip--type-square-root .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncSquareRoot.png");
+}
+.component--type-log-n .label--icon, .tooltip--type-log-n .label--icon {
+  background-image: url("../icons/MathComponents.OperatorComponents.Component_NBaseLogarithm.png");
+}
+.component--type-arc-cosine .label--icon, .tooltip--type-arc-cosine .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncACos.png");
+}
+.component--type-arc-sine .label--icon, .tooltip--type-arc-sine .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncASin.png");
+}
+.component--type-arc-tangent .label--icon, .tooltip--type-arc-tangent .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncATan.png");
+}
+.component--type-cosine .label--icon, .tooltip--type-cosine .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncCos.png");
+}
+.component--type-co-secant .label--icon, .tooltip--type-co-secant .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncCosecant.png");
+}
+.component--type-co-tangent .label--icon, .tooltip--type-co-tangent .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncCoTangent.png");
+}
+.component--type-secant .label--icon, .tooltip--type-secant .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncSecant.png");
+}
+.component--type-sine .label--icon, .tooltip--type-sine .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncSin.png");
+}
+.component--type-sinc .label--icon, .tooltip--type-sinc .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncSinc.png");
+}
+.component--type-tangent .label--icon, .tooltip--type-tangent .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncTan.png");
+}
+.component--type-degrees .label--icon, .tooltip--type-degrees .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncToDegrees.png");
+}
+.component--type-radians .label--icon, .tooltip--type-radians .label--icon {
+  background-image: url("../icons/MathComponents.FunctionComponents.FuncToRadians.png");
+}
+.component--type-right-trigonometry .label--icon, .tooltip--type-right-trigonometry .label--icon {
+  background-image: url("../icons/XformComponents.RightTriangleTrig.png");
+}
+.component--type-centroid .label--icon, .tooltip--type-centroid .label--icon {
+  background-image: url("../icons/XformComponents.TriangleCentroid.png");
+}
+.component--type-circumcentre .label--icon, .tooltip--type-circumcentre .label--icon {
+  background-image: url("../icons/XformComponents.TriangleCircumcentre.png");
+}
+.component--type-incentre .label--icon, .tooltip--type-incentre .label--icon {
+  background-image: url("../icons/XformComponents.TriangleIncentre.png");
+}
+.component--type-orthocentre .label--icon, .tooltip--type-orthocentre .label--icon {
+  background-image: url("../icons/XformComponents.TriangleOrthocentre.png");
+}
+.component--type-triangle-trigonometry .label--icon, .tooltip--type-triangle-trigonometry .label--icon {
+  background-image: url("../icons/XformComponents.TriangleTrig.png");
+}
+.component--type-combine-date-amp-time .label--icon, .tooltip--type-combine-date-amp-time .label--icon {
+  background-image: url("../icons/MathComponents.TimeComponents.Component_CombineDateTime.png");
+}
+.component--type-construct-date .label--icon, .tooltip--type-construct-date .label--icon {
+  background-image: url("../icons/MathComponents.TimeComponents.Component_CreateDate.png");
+}
+.component--type-construct-exotic-date .label--icon, .tooltip--type-construct-exotic-date .label--icon {
+  background-image: url("../icons/MathComponents.TimeComponents.Component_CreateDateExotic.png");
+}
+.component--type-construct-smooth-time .label--icon, .tooltip--type-construct-smooth-time .label--icon {
+  background-image: url("../icons/MathComponents.TimeComponents.Component_CreateSmoothTime.png");
+}
+.component--type-construct-time .label--icon, .tooltip--type-construct-time .label--icon {
+  background-image: url("../icons/MathComponents.TimeComponents.Component_CreateTime.png");
+}
+.component--type-date-range .label--icon, .tooltip--type-date-range .label--icon {
+  background-image: url("../icons/MathComponents.TimeComponents.Component_DateRange.png");
+}
+.component--type-deconstruct-date .label--icon, .tooltip--type-deconstruct-date .label--icon {
+  background-image: url("../icons/MathComponents.TimeComponents.Component_DeconstructDate.png");
+}
+.component--type-interpolate-date .label--icon, .tooltip--type-interpolate-date .label--icon {
+  background-image: url("../icons/MathComponents.TimeComponents.Component_InterpolateDate.png");
+}
+.component--type-transform-matrix .label--icon, .tooltip--type-transform-matrix .label--icon {
+  background-image: url("../icons/XformComponents.TransformMatrix.png");
+}
+.component--type-group .label--icon, .tooltip--type-group .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_GroupGeometryComponent.png");
+}
+.component--type-merge-group .label--icon, .tooltip--type-merge-group .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_MergeGroupComponent.png");
+}
+.component--type-split-group .label--icon, .tooltip--type-split-group .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_SplitGroupComponent.png");
+}
+.component--type-ungroup .label--icon, .tooltip--type-ungroup .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_UngroupGeometryComponent.png");
+}
+.component--type-transform .label--icon, .tooltip--type-transform .label--icon {
+  background-image: url("../icons/LinearXForms.Component_ApplyTransform.png");
+}
+.component--type-compound .label--icon, .tooltip--type-compound .label--icon {
+  background-image: url("../icons/LinearXForms.Component_CompoundTransforms.png");
+}
+.component--type-inverse-transform .label--icon, .tooltip--type-inverse-transform .label--icon {
+  background-image: url("../icons/LinearXForms.Component_InverseTransform.png");
+}
+.component--type-split .label--icon, .tooltip--type-split .label--icon {
+  background-image: url("../icons/LinearXForms.Component_SplitTransforms.png");
+}
+.component--type-map-to-surface .label--icon, .tooltip--type-map-to-surface .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_MapOntoSurface.png");
+}
+.component--type-camera-obscura .label--icon, .tooltip--type-camera-obscura .label--icon {
+  background-image: url("../icons/LinearXForms.Component_CameraObscura.png");
+}
+.component--type-bend-deform .label--icon, .tooltip--type-bend-deform .label--icon {
+  background-image: url("../icons/SquishyXMorphs.Component_BendDeform.png");
+}
+.component--type-box-morph .label--icon, .tooltip--type-box-morph .label--icon {
+  background-image: url("../icons/SquishyXMorphs.Component_BoxMorph.png");
+}
+.component--type-point-deform .label--icon, .tooltip--type-point-deform .label--icon {
+  background-image: url("../icons/SquishyXMorphs.Component_ControlPointDeform.png");
+}
+.component--type-blend-box .label--icon, .tooltip--type-blend-box .label--icon {
+  background-image: url("../icons/SquishyXMorphs.Component_Create2SurfaceBox.png");
+}
+.component--type-surface-box .label--icon, .tooltip--type-surface-box .label--icon {
+  background-image: url("../icons/SquishyXMorphs.Component_CreateSurfaceBox.png");
+}
+.component--type-twisted-box .label--icon, .tooltip--type-twisted-box .label--icon {
+  background-image: url("../icons/SquishyXMorphs.Component_CreateTwistedBox.png");
+}
+.component--type-mirror-curve .label--icon, .tooltip--type-mirror-curve .label--icon {
+  background-image: url("../icons/SquishyXMorphs.Component_MirrorCurve.png");
+}
+.component--type-mirror-surface .label--icon, .tooltip--type-mirror-surface .label--icon {
+  background-image: url("../icons/SquishyXMorphs.Component_MirrorSurface.png");
+}
+.component--type-surface-morph .label--icon, .tooltip--type-surface-morph .label--icon {
+  background-image: url("../icons/SquishyXMorphs.Component_MorphToSurfaceSpace.png");
+}
+.component--type-spatial-deform .label--icon, .tooltip--type-spatial-deform .label--icon {
+  background-image: url("../icons/SquishyXMorphs.Component_SpatialDeform.png");
+}
+.component--type-spatial-deform-custom .label--icon, .tooltip--type-spatial-deform-custom .label--icon {
+  background-image: url("../icons/SquishyXMorphs.Component_SpatialDeform2.png");
+}
+.component--type-box-mapping .label--icon, .tooltip--type-box-mapping .label--icon {
+  background-image: url("../icons/LinearXForms.Component_BoxMapping.png");
+}
+.component--type-orient-direction .label--icon, .tooltip--type-orient-direction .label--icon {
+  background-image: url("../icons/LinearXForms.Component_OrientDir.png");
+}
+.component--type-project .label--icon, .tooltip--type-project .label--icon {
+  background-image: url("../icons/LinearXForms.Component_Project.png");
+}
+.component--type-project-along .label--icon, .tooltip--type-project-along .label--icon {
+  background-image: url("../icons/LinearXForms.Component_ProjectAlong.png");
+}
+.component--type-rectangle-mapping .label--icon, .tooltip--type-rectangle-mapping .label--icon {
+  background-image: url("../icons/LinearXForms.Component_RectangleMapping.png");
+}
+.component--type-scale .label--icon, .tooltip--type-scale .label--icon {
+  background-image: url("../icons/LinearXForms.Component_Scale.png");
+}
+.component--type-scale-n-u .label--icon, .tooltip--type-scale-n-u .label--icon {
+  background-image: url("../icons/LinearXForms.Component_ScaleNU.png");
+}
+.component--type-shear-angle .label--icon, .tooltip--type-shear-angle .label--icon {
+  background-image: url("../icons/LinearXForms.Component_ShearAngle.png");
+}
+.component--type-shear .label--icon, .tooltip--type-shear .label--icon {
+  background-image: url("../icons/LinearXForms.Component_ShearVector.png");
+}
+.component--type-triangle-mapping .label--icon, .tooltip--type-triangle-mapping .label--icon {
+  background-image: url("../icons/LinearXForms.Component_TriangleMapping.png");
+}
+.component--type-mirror .label--icon, .tooltip--type-mirror .label--icon {
+  background-image: url("../icons/LinearXForms.Component_Mirror.png");
+}
+.component--type-move .label--icon, .tooltip--type-move .label--icon {
+  background-image: url("../icons/LinearXForms.Component_Move.png");
+}
+.component--type-move-away-from .label--icon, .tooltip--type-move-away-from .label--icon {
+  background-image: url("../icons/LinearXForms.Component_MoveAwayFrom.png");
+}
+.component--type-move-to-plane .label--icon, .tooltip--type-move-to-plane .label--icon {
+  background-image: url("../icons/LinearXForms.Component_MoveOntoPlane.png");
+}
+.component--type-orient .label--icon, .tooltip--type-orient .label--icon {
+  background-image: url("../icons/LinearXForms.Component_Orient.png");
+}
+.component--type-rotate .label--icon, .tooltip--type-rotate .label--icon {
+  background-image: url("../icons/LinearXForms.Component_Rotate.png");
+}
+.component--type-rotate-3-d .label--icon, .tooltip--type-rotate-3-d .label--icon {
+  background-image: url("../icons/LinearXForms.Component_Rotate3D.png");
+}
+.component--type-rotate-axis .label--icon, .tooltip--type-rotate-axis .label--icon {
+  background-image: url("../icons/LinearXForms.Component_RotateAxis.png");
+}
+.component--type-rotate .label--icon, .tooltip--type-rotate .label--icon {
+  background-image: url("../icons/LinearXForms.Component_RotateVector.png");
+}
+.component--type-box-array .label--icon, .tooltip--type-box-array .label--icon {
+  background-image: url("../icons/MassXForms.Component_ArrayBox.png");
+}
+.component--type-curve-array .label--icon, .tooltip--type-curve-array .label--icon {
+  background-image: url("../icons/MassXForms.Component_ArrayCurve.png");
+}
+.component--type-linear-array .label--icon, .tooltip--type-linear-array .label--icon {
+  background-image: url("../icons/MassXForms.Component_ArrayLinear.png");
+}
+.component--type-polar-array .label--icon, .tooltip--type-polar-array .label--icon {
+  background-image: url("../icons/MassXForms.Component_ArrayPolar.png");
+}
+.component--type-rectangular-array .label--icon, .tooltip--type-rectangular-array .label--icon {
+  background-image: url("../icons/MassXForms.Component_ArrayRectangular.png");
+}
+.component--type-kaleidoscope .label--icon, .tooltip--type-kaleidoscope .label--icon {
+  background-image: url("../icons/MassXForms.Component_Kaleidoscope.png");
+}
+.component--type-item-selector .label--icon, .tooltip--type-item-selector .label--icon {
+  background-image: url("../icons/HDTReference.GH_ValueList.png");
+}
+.component--type-convert-to-document-units .label--icon, .tooltip--type-convert-to-document-units .label--icon {
+  background-image: url("../icons/HDTReference.ConvertToDocumentUnits.png");
+}
+.component--type-delete-on-layer .label--icon, .tooltip--type-delete-on-layer .label--icon {
+  background-image: url("../icons/HDTReference.DeleteOnLayer.png");
+}
+.component--type-directory-contents .label--icon, .tooltip--type-directory-contents .label--icon {
+  background-image: url("../icons/HDTReference.DirectoryContents.png");
+}
+.component--type-custom-preview-lineweights .label--icon, .tooltip--type-custom-preview-lineweights .label--icon {
+  background-image: url("../icons/HDT_Reference.CustomPreviewLineWeights.png");
+}
+.component--type-custom-preview-materials .label--icon, .tooltip--type-custom-preview-materials .label--icon {
+  background-image: url("../icons/HDT_Reference.CustomPreviewMaterials.png");
+}
+.component--type-render-mesh-to-screen .label--icon, .tooltip--type-render-mesh-to-screen .label--icon {
+  background-image: url("../icons/HDT_Reference.MeshToScreen.png");
+}
+.component--type-render-text-to-screen .label--icon, .tooltip--type-render-text-to-screen .label--icon {
+  background-image: url("../icons/HDT_Reference.TextToScreen.png");
+}
+.component--type-dynamic-geometry-pipeline .label--icon, .tooltip--type-dynamic-geometry-pipeline .label--icon {
+  background-image: url("../icons/HDT_Reference.DynamicPipeline.png");
+}
+.component--type-explode-blocks .label--icon, .tooltip--type-explode-blocks .label--icon {
+  background-image: url("../icons/HDTReference.BlockExplode.png");
+}
+.component--type-explode-blocks-recursively .label--icon, .tooltip--type-explode-blocks-recursively .label--icon {
+  background-image: url("../icons/HDTReference.BlockExplodeRecursive.png");
+}
+.component--type-hatch-explode .label--icon, .tooltip--type-hatch-explode .label--icon {
+  background-image: url("../icons/HDTReference.HatchExplode.png");
+}
+.component--type-light-properties .label--icon, .tooltip--type-light-properties .label--icon {
+  background-image: url("../icons/HDTReference.LightProperties.png");
+}
+.component--type-object-attributes .label--icon, .tooltip--type-object-attributes .label--icon {
+  background-image: url("../icons/HDTReference.ObjAttributes.png");
+}
+.component--type-objects-by-selection .label--icon, .tooltip--type-objects-by-selection .label--icon {
+  background-image: url("../icons/HDTReference.SelectedObjects.png");
+}
+.component--type-sort-objects-by-type .label--icon, .tooltip--type-sort-objects-by-type .label--icon {
+  background-image: url("../icons/HDTReference.SortByType.png");
+}
+.component--type-text-object-info .label--icon, .tooltip--type-text-object-info .label--icon {
+  background-image: url("../icons/HDTReference.TextObjectInfo.png");
+}
+.component--type-bake-geometry .label--icon, .tooltip--type-bake-geometry .label--icon {
+  background-image: url("../icons/HDTReference.BakeGeometry.png");
+}
+.component--type-create-attributes .label--icon, .tooltip--type-create-attributes .label--icon {
+  background-image: url("../icons/HDTReference.CreateAttributes.png");
+}
+.component--type-create-hatch .label--icon, .tooltip--type-create-hatch .label--icon {
+  background-image: url("../icons/HDTReference.CreateHatch.png");
+}
+.component--type-create-light .label--icon, .tooltip--type-create-light .label--icon {
+  background-image: url("../icons/HDTReference.CreateLight.png");
+}
+.component--type-justified-text3d .label--icon, .tooltip--type-justified-text3d .label--icon {
+  background-image: url("../icons/HDTReference.JustifiedText3d.png");
+}
+.component--type-place-block .label--icon, .tooltip--type-place-block .label--icon {
+  background-image: url("../icons/HDTReference.PlaceBlock.png");
+}
+.component--type-box-mapping .label--icon, .tooltip--type-box-mapping .label--icon {
+  background-image: url("../icons/HDTReference.BoxMapping.png");
+}
+.component--type-cylinder-mapping .label--icon, .tooltip--type-cylinder-mapping .label--icon {
+  background-image: url("../icons/HDTReference.CylinderMapping.png");
+}
+.component--type-planar-mapping .label--icon, .tooltip--type-planar-mapping .label--icon {
+  background-image: url("../icons/HDTReference.PlanarMapping.png");
+}
+.component--type-spherical-mapping .label--icon, .tooltip--type-spherical-mapping .label--icon {
+  background-image: url("../icons/HDTReference.SphericalMapping.png");
+}
+.component--type-surface-mapping .label--icon, .tooltip--type-surface-mapping .label--icon {
+  background-image: url("../icons/HDTReference.SurfaceMapping.png");
+}
+.component--type-create-modify-layers .label--icon, .tooltip--type-create-modify-layers .label--icon {
+  background-image: url("../icons/HDTReference.CreateModifyLayers.png");
+}
+.component--type-create-modify-materials .label--icon, .tooltip--type-create-modify-materials .label--icon {
+  background-image: url("../icons/HDTReference.CreateModifyMaterials.png");
+}
+.component--type-font-table .label--icon, .tooltip--type-font-table .label--icon {
+  background-image: url("../icons/HDTReference.FontTable.png");
+}
+.component--type-hatch-table .label--icon, .tooltip--type-hatch-table .label--icon {
+  background-image: url("../icons/HDTReference.HatchTable.png");
+}
+.component--type-linetype-table .label--icon, .tooltip--type-linetype-table .label--icon {
+  background-image: url("../icons/HDTReference.LinetypeTable.png");
+}
+.component--type-material-table .label--icon, .tooltip--type-material-table .label--icon {
+  background-image: url("../icons/HDTReference.MaterialTable.png");
+}
+.component--type-layer-table .label--icon, .tooltip--type-layer-table .label--icon {
+  background-image: url("../icons/HDTReference.Resources.LayerTable.png");
+}
+.component--type-assign-paths .label--icon, .tooltip--type-assign-paths .label--icon {
+  background-image: url("../icons/TreeFrog.AssignPaths.png");
+}
+.component--type-graft-by-data .label--icon, .tooltip--type-graft-by-data .label--icon {
+  background-image: url("../icons/TreeFrog.GraftByData.png");
+}
+.component--type-match-paths .label--icon, .tooltip--type-match-paths .label--icon {
+  background-image: url("../icons/TreeFrog.MatchPaths.png");
+}
+.component--type-path-description .label--icon, .tooltip--type-path-description .label--icon {
+  background-image: url("../icons/TreeFrog.PathDescription.png");
+}
+.component--type-group-toggle .label--icon, .tooltip--type-group-toggle .label--icon {
+  background-image: url("../icons/MetaHopper.GroupToggler.png");
+}
+.component--type-best-practicizer .label--icon, .tooltip--type-best-practicizer .label--icon {
+  background-image: url("../icons/MetaHopper.BestPracticizer.png");
+}
+.component--type-highlight-objects .label--icon, .tooltip--type-highlight-objects .label--icon {
+  background-image: url("../icons/MetaHopper.HighlightObjects.png");
+}
+.component--type-relative-path .label--icon, .tooltip--type-relative-path .label--icon {
+  background-image: url("../icons/MetaHopper.RelativePath.png");
+}
+.component--type-set-object-value .label--icon, .tooltip--type-set-object-value .label--icon {
+  background-image: url("../icons/MetaHopper.SetObjectValue.png");
+}
+.component--type-unwrap-list .label--icon, .tooltip--type-unwrap-list .label--icon {
+  background-image: url("../icons/MetaHopper.UnwrapList.png");
+}
+.component--type-wrap-list .label--icon, .tooltip--type-wrap-list .label--icon {
+  background-image: url("../icons/MetaHopper.WrapList.png");
+}
+.component--type-bake-object .label--icon, .tooltip--type-bake-object .label--icon {
+  background-image: url("../icons/MetaHopper.BakeObject.png");
+}
+.component--type-control-wire-display .label--icon, .tooltip--type-control-wire-display .label--icon {
+  background-image: url("../icons/MetaHopper.ControlWireDisplay.png");
+}
+.component--type-enable-disable-object .label--icon, .tooltip--type-enable-disable-object .label--icon {
+  background-image: url("../icons/MetaHopper.EnableDisableObject.png");
+}
+.component--type-hide-show-object-preview .label--icon, .tooltip--type-hide-show-object-preview .label--icon {
+  background-image: url("../icons/MetaHopper.HideShowObject.png");
+}
+.component--type-move-object .label--icon, .tooltip--type-move-object .label--icon {
+  background-image: url("../icons/MetaHopper.MoveObject.png");
+}
+.component--type-rename-object .label--icon, .tooltip--type-rename-object .label--icon {
+  background-image: url("../icons/MetaHopper.RenameObject.png");
+}
+.component--type-set-group-properties .label--icon, .tooltip--type-set-group-properties .label--icon {
+  background-image: url("../icons/MetaHopper.SetGroup.png");
+}
+.component--type-set-scribble-properties .label--icon, .tooltip--type-set-scribble-properties .label--icon {
+  background-image: url("../icons/MetaHopper.SetScribble.png");
+}
+.component--type-set-sketch .label--icon, .tooltip--type-set-sketch .label--icon {
+  background-image: url("../icons/MetaHopper.SetSketch.png");
+}
+.component--type-wire-display-toggle .label--icon, .tooltip--type-wire-display-toggle .label--icon {
+  background-image: url("../icons/MetaHopper.WireToggle.png");
+}
+.component--type-assembly-info .label--icon, .tooltip--type-assembly-info .label--icon {
+  background-image: url("../icons/MetaHopper.AssemblyInfo.png");
+}
+.component--type-component-info .label--icon, .tooltip--type-component-info .label--icon {
+  background-image: url("../icons/MetaHopper.ComponentInfo.png");
+}
+.component--type-document-info .label--icon, .tooltip--type-document-info .label--icon {
+  background-image: url("../icons/MetaHopper.DocInfo.png");
+}
+.component--type-object-info .label--icon, .tooltip--type-object-info .label--icon {
+  background-image: url("../icons/MetaHopper.ObjectInfo.png");
+}
+.component--type-param-info .label--icon, .tooltip--type-param-info .label--icon {
+  background-image: url("../icons/MetaHopper.ParamInfo.png");
+}
+.component--type-batch-animator .label--icon, .tooltip--type-batch-animator .label--icon {
+  background-image: url("../icons/MetaHopper.BatchAnimator.png");
+}
+.component--type-batch-driver .label--icon, .tooltip--type-batch-driver .label--icon {
+  background-image: url("../icons/MetaHopper.BatchDriver.png");
+}
+.component--type-batch-variable-from-list .label--icon, .tooltip--type-batch-variable-from-list .label--icon {
+  background-image: url("../icons/MetaHopper.BatchList.png");
+}
+.component--type-batch-slider .label--icon, .tooltip--type-batch-slider .label--icon {
+  background-image: url("../icons/MetaHopper.BatchSlider.png");
+}
+.component--type-get-connected-objects .label--icon, .tooltip--type-get-connected-objects .label--icon {
+  background-image: url("../icons/MetaHopper.GetConnectedObjects.png");
+}
+.component--type-get-groups .label--icon, .tooltip--type-get-groups .label--icon {
+  background-image: url("../icons/MetaHopper.GetGroups.png");
+}
+.component--type-get-objects-in-group .label--icon, .tooltip--type-get-objects-in-group .label--icon {
+  background-image: url("../icons/MetaHopper.GetObjectsInGroup.png");
+}
+.component--type-get-objects-of-same-library .label--icon, .tooltip--type-get-objects-of-same-library .label--icon {
+  background-image: url("../icons/MetaHopper.GetObjectsOfSameLibrary.png");
+}
+.component--type-get-objects-of-same-type .label--icon, .tooltip--type-get-objects-of-same-type .label--icon {
+  background-image: url("../icons/MetaHopper.GetObjectsOfSameType.png");
+}
+.component--type-get-scribbles .label--icon, .tooltip--type-get-scribbles .label--icon {
+  background-image: url("../icons/MetaHopper.GetScribbles.png");
+}
+.component--type-get-selected-objects .label--icon, .tooltip--type-get-selected-objects .label--icon {
+  background-image: url("../icons/MetaHopper.GetSelectedObjects.png");
+}
+.component--type-construct-mesh .label--icon, .tooltip--type-construct-mesh .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_Mesh.png");
+}
+.component--type-mesh-box .label--icon, .tooltip--type-mesh-box .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshBox.png");
+}
+.component--type-mesh-colours .label--icon, .tooltip--type-mesh-colours .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshColour.png");
+}
+.component--type-mesh-spray .label--icon, .tooltip--type-mesh-spray .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshColourSpray.png");
+}
+.component--type-mesh-plane .label--icon, .tooltip--type-mesh-plane .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshPlane.png");
+}
+.component--type-mesh-sphere .label--icon, .tooltip--type-mesh-sphere .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshSphere.png");
+}
+.component--type-mesh-sphere-ex .label--icon, .tooltip--type-mesh-sphere-ex .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshSphere2.png");
+}
+.component--type-mesh-quad .label--icon, .tooltip--type-mesh-quad .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_QuadFace.png");
+}
+.component--type-mesh-triangle .label--icon, .tooltip--type-mesh-triangle .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_TriangleFace.png");
+}
+.component--type-blur-mesh .label--icon, .tooltip--type-blur-mesh .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshBlur.png");
+}
+.component--type-mesh-brep .label--icon, .tooltip--type-mesh-brep .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshBRep.png");
+}
+.component--type-simple-mesh .label--icon, .tooltip--type-simple-mesh .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshBrepSimple.png");
+}
+.component--type-cull-faces .label--icon, .tooltip--type-cull-faces .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshCullFaces.png");
+}
+.component--type-cull-vertices .label--icon, .tooltip--type-cull-vertices .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshCullVertices.png");
+}
+.component--type-delete-faces .label--icon, .tooltip--type-delete-faces .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshDeleteFaces.png");
+}
+.component--type-delete-vertices .label--icon, .tooltip--type-delete-vertices .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshDeleteVertices.png");
+}
+.component--type-mesh-join .label--icon, .tooltip--type-mesh-join .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshJoin.png");
+}
+.component--type-quadrangulate .label--icon, .tooltip--type-quadrangulate .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshQuadrangulate.png");
+}
+.component--type-settings-custom .label--icon, .tooltip--type-settings-custom .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshSettingsCustom.png");
+}
+.component--type-settings-speed .label--icon, .tooltip--type-settings-speed .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshSettingsJaggedAndFaster.png");
+}
+.component--type-settings-quality .label--icon, .tooltip--type-settings-quality .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshSettingsSmoothAndSlower.png");
+}
+.component--type-mesh-shadow .label--icon, .tooltip--type-mesh-shadow .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshShadow.png");
+}
+.component--type-disjoint-mesh .label--icon, .tooltip--type-disjoint-mesh .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshSplitDisjoint.png");
+}
+.component--type-mesh-split-plane .label--icon, .tooltip--type-mesh-split-plane .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshSplitPlane.png");
+}
+.component--type-mesh-surface .label--icon, .tooltip--type-mesh-surface .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshSurfaceUV.png");
+}
+.component--type-triangulate .label--icon, .tooltip--type-triangulate .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshTriangulate.png");
+}
+.component--type-unweld-mesh .label--icon, .tooltip--type-unweld-mesh .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshUnweld.png");
+}
+.component--type-weld-mesh .label--icon, .tooltip--type-weld-mesh .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshWeld.png");
+}
+.component--type-exposure .label--icon, .tooltip--type-exposure .label--icon {
+  background-image: url("../icons/SurfaceComponents.ShadingComponents.Component_Exposure.png");
+}
+.component--type-occlusion .label--icon, .tooltip--type-occlusion .label--icon {
+  background-image: url("../icons/SurfaceComponents.ShadingComponents.Component_Occlusion.png");
+}
+.component--type-smooth-mesh .label--icon, .tooltip--type-smooth-mesh .label--icon {
+  background-image: url("../icons/TriangulationComponents.Component_SmoothMesh.png");
+}
+.component--type-deconstruct-face .label--icon, .tooltip--type-deconstruct-face .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_DeconstructFace.png");
+}
+.component--type-deconstruct-mesh .label--icon, .tooltip--type-deconstruct-mesh .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_DeconstructMesh.png");
+}
+.component--type-mesh-closest-point .label--icon, .tooltip--type-mesh-closest-point .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshClosestPoint.png");
+}
+.component--type-mesh-edges .label--icon, .tooltip--type-mesh-edges .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshEdges.png");
+}
+.component--type-mesh-eval .label--icon, .tooltip--type-mesh-eval .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshEvaluate.png");
+}
+.component--type-face-boundaries .label--icon, .tooltip--type-face-boundaries .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshFaceBoundaries.png");
+}
+.component--type-face-circles .label--icon, .tooltip--type-face-circles .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshFaceCircles.png");
+}
+.component--type-face-normals .label--icon, .tooltip--type-face-normals .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshFaceNormals.png");
+}
+.component--type-mesh-inclusion .label--icon, .tooltip--type-mesh-inclusion .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshInclusion.png");
+}
+.component--type-meta-ball .label--icon, .tooltip--type-meta-ball .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_MetaBallComponent.png");
+}
+.component--type-meta-ball-t .label--icon, .tooltip--type-meta-ball-t .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_MetaBallComponentThreshold.png");
+}
+.component--type-meta-ball-t-custom .label--icon, .tooltip--type-meta-ball-t-custom .label--icon {
+  background-image: url("../icons/Grasshopper.Kernel.Components.GH_MetaBallComponentThresholdEx.png");
+}
+.component--type-delaunay-edges .label--icon, .tooltip--type-delaunay-edges .label--icon {
+  background-image: url("../icons/TriangulationComponents.Component_Connectivity.png");
+}
+.component--type-convex-hull .label--icon, .tooltip--type-convex-hull .label--icon {
+  background-image: url("../icons/TriangulationComponents.Component_ConvexHull.png");
+}
+.component--type-delaunay-mesh .label--icon, .tooltip--type-delaunay-mesh .label--icon {
+  background-image: url("../icons/TriangulationComponents.Component_Delaunay.png");
+}
+.component--type-facet-dome .label--icon, .tooltip--type-facet-dome .label--icon {
+  background-image: url("../icons/TriangulationComponents.Component_FacetDome.png");
+}
+.component--type-oc-tree .label--icon, .tooltip--type-oc-tree .label--icon {
+  background-image: url("../icons/TriangulationComponents.Component_OcTree.png");
+}
+.component--type-voronoi .label--icon, .tooltip--type-voronoi .label--icon {
+  background-image: url("../icons/TriangulationComponents.Component_PlanarVoronoi.png");
+}
+.component--type-proximity-2-d .label--icon, .tooltip--type-proximity-2-d .label--icon {
+  background-image: url("../icons/TriangulationComponents.Component_Proximity2D.png");
+}
+.component--type-proximity-3-d .label--icon, .tooltip--type-proximity-3-d .label--icon {
+  background-image: url("../icons/TriangulationComponents.Component_Proximity3D.png");
+}
+.component--type-quad-tree .label--icon, .tooltip--type-quad-tree .label--icon {
+  background-image: url("../icons/TriangulationComponents.Component_QuadTree.png");
+}
+.component--type-voronoi-groups .label--icon, .tooltip--type-voronoi-groups .label--icon {
+  background-image: url("../icons/TriangulationComponents.Component_RecursivePlanarVoronoi.png");
+}
+.component--type-substrate .label--icon, .tooltip--type-substrate .label--icon {
+  background-image: url("../icons/TriangulationComponents.Component_Substrate.png");
+}
+.component--type-voronoi-3-d .label--icon, .tooltip--type-voronoi-3-d .label--icon {
+  background-image: url("../icons/TriangulationComponents.Component_VolumeVoronoi.png");
+}
+.component--type-voronoi-cell .label--icon, .tooltip--type-voronoi-cell .label--icon {
+  background-image: url("../icons/TriangulationComponents.Component_VoronoiCell.png");
+}
+.component--type-curve-curve .label--icon, .tooltip--type-curve-curve .label--icon {
+  background-image: url("../icons/CurveComponents.Component_CurveIntersection.png");
+}
+.component--type-curve-self .label--icon, .tooltip--type-curve-self .label--icon {
+  background-image: url("../icons/CurveComponents.Component_CurveSelfIntersection.png");
+}
+.component--type-multiple-curves .label--icon, .tooltip--type-multiple-curves .label--icon {
+  background-image: url("../icons/CurveComponents.Component_CurvesIntersection.png");
+}
+.component--type-collision-many-many .label--icon, .tooltip--type-collision-many-many .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_CollisionManyToMany.png");
+}
+.component--type-collision-one-many .label--icon, .tooltip--type-collision-one-many .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_CollisionOneToMany.png");
+}
+.component--type-mesh-curve .label--icon, .tooltip--type-mesh-curve .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshCurveIntersect.png");
+}
+.component--type-mesh-mesh .label--icon, .tooltip--type-mesh-mesh .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshMeshIntersect.png");
+}
+.component--type-brep-curve .label--icon, .tooltip--type-brep-curve .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_BRepCurveIntersect.png");
+}
+.component--type-brep-brep .label--icon, .tooltip--type-brep-brep .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_BRepIntersection.png");
+}
+.component--type-surface-curve .label--icon, .tooltip--type-surface-curve .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_SurfaceCurveIntersect.png");
+}
+.component--type-surface-split .label--icon, .tooltip--type-surface-split .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_SurfaceCurveSplit.png");
+}
+.component--type-curve-line .label--icon, .tooltip--type-curve-line .label--icon {
+  background-image: url("../icons/CurveComponents.Component_CurveLineIntersection.png");
+}
+.component--type-curve-plane .label--icon, .tooltip--type-curve-plane .label--icon {
+  background-image: url("../icons/CurveComponents.Component_CurvePlaneIntersection.png");
+}
+.component--type-line-line .label--icon, .tooltip--type-line-line .label--icon {
+  background-image: url("../icons/CurveComponents.Component_LineLineIntersection.png");
+}
+.component--type-line-plane .label--icon, .tooltip--type-line-plane .label--icon {
+  background-image: url("../icons/CurveComponents.Component_LinePlaneIntersection.png");
+}
+.component--type-brep-line .label--icon, .tooltip--type-brep-line .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_BRepLineIntersect.png");
+}
+.component--type-brep-plane .label--icon, .tooltip--type-brep-plane .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_BRepSection.png");
+}
+.component--type-contour .label--icon, .tooltip--type-contour .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_Contour1.png");
+}
+.component--type-contour-ex .label--icon, .tooltip--type-contour-ex .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_Contour2.png");
+}
+.component--type-mesh-ray .label--icon, .tooltip--type-mesh-ray .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_MeshRayIntersect.png");
+}
+.component--type-mesh-plane .label--icon, .tooltip--type-mesh-plane .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_MeshSection.png");
+}
+.component--type-surface-line .label--icon, .tooltip--type-surface-line .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_SurfaceLineIntersect.png");
+}
+.component--type-iso-vist .label--icon, .tooltip--type-iso-vist .label--icon {
+  background-image: url("../icons/TriangulationComponents.Component_Isovist.png");
+}
+.component--type-iso-vist-ray .label--icon, .tooltip--type-iso-vist-ray .label--icon {
+  background-image: url("../icons/TriangulationComponents.Component_IsovistRay.png");
+}
+.component--type-plane-plane-plane .label--icon, .tooltip--type-plane-plane-plane .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_3PlaneIntersect.png");
+}
+.component--type-plane-plane .label--icon, .tooltip--type-plane-plane .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_PlanePlaneIntersect.png");
+}
+.component--type-plane-region .label--icon, .tooltip--type-plane-region .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_PlaneSliceRegion.png");
+}
+.component--type-split-with-brep .label--icon, .tooltip--type-split-with-brep .label--icon {
+  background-image: url("../icons/CurveComponents.Component_SplitCurveBRep.png");
+}
+.component--type-split-with-breps .label--icon, .tooltip--type-split-with-breps .label--icon {
+  background-image: url("../icons/CurveComponents.Component_SplitCurveMultipleBReps.png");
+}
+.component--type-trim-with-brep .label--icon, .tooltip--type-trim-with-brep .label--icon {
+  background-image: url("../icons/CurveComponents.Component_TrimCurveBRep.png");
+}
+.component--type-trim-with-breps .label--icon, .tooltip--type-trim-with-breps .label--icon {
+  background-image: url("../icons/CurveComponents.Component_TrimCurveMultipleBReps.png");
+}
+.component--type-trim-with-regions .label--icon, .tooltip--type-trim-with-regions .label--icon {
+  background-image: url("../icons/CurveComponents.Component_TrimCurveMultipleRegions.png");
+}
+.component--type-trim-with-region .label--icon, .tooltip--type-trim-with-region .label--icon {
+  background-image: url("../icons/CurveComponents.Component_TrimCurveRegion.png");
+}
+.component--type-mesh-difference .label--icon, .tooltip--type-mesh-difference .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshBooleanDifference.png");
+}
+.component--type-mesh-intersection .label--icon, .tooltip--type-mesh-intersection .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshBooleanIntersection.png");
+}
+.component--type-mesh-union .label--icon, .tooltip--type-mesh-union .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshBooleanUnion.png");
+}
+.component--type-mesh-split .label--icon, .tooltip--type-mesh-split .label--icon {
+  background-image: url("../icons/SurfaceComponents.MeshComponents.Component_MeshMeshSplit.png");
+}
+.component--type-solid-difference .label--icon, .tooltip--type-solid-difference .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_BooleanDifference.png");
+}
+.component--type-solid-intersection .label--icon, .tooltip--type-solid-intersection .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_BooleanIntersection.png");
+}
+.component--type-split-brep .label--icon, .tooltip--type-split-brep .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_BooleanSplit.png");
+}
+.component--type-trim-solid .label--icon, .tooltip--type-trim-solid .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_BooleanTrim.png");
+}
+.component--type-solid-union .label--icon, .tooltip--type-solid-union .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_BooleanUnion.png");
+}
+.component--type-box-slits .label--icon, .tooltip--type-box-slits .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_BoxSlits.png");
+}
+.component--type-boundary-volume .label--icon, .tooltip--type-boundary-volume .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_CreateSolid.png");
+}
+.component--type-region-difference .label--icon, .tooltip--type-region-difference .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_CurveBooleanDifference.png");
+}
+.component--type-region-intersection .label--icon, .tooltip--type-region-intersection .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_CurveBooleanIntersection.png");
+}
+.component--type-region-union .label--icon, .tooltip--type-region-union .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_CurveBooleanUnion.png");
+}
+.component--type-region-slits .label--icon, .tooltip--type-region-slits .label--icon {
+  background-image: url("../icons/SurfaceComponents.SolidComponents.Component_RegionSlits.png");
+}
+.component--type-vector-x-y-z .label--icon, .tooltip--type-vector-x-y-z .label--icon {
+  background-image: url("../icons/VectorComponents.VectorComponents.Component_ConstructVector.png");
+}
+.component--type-deconstruct-vector .label--icon, .tooltip--type-deconstruct-vector .label--icon {
+  background-image: url("../icons/VectorComponents.VectorComponents.Component_DeconstructVector.png");
+}
+.component--type-unit-vector .label--icon, .tooltip--type-unit-vector .label--icon {
+  background-image: url("../icons/VectorComponents.VectorComponents.Component_UnitVector.png");
+}
+.component--type-unit-x .label--icon, .tooltip--type-unit-x .label--icon {
+  background-image: url("../icons/VectorComponents.VectorComponents.Component_UnitVectorX.png");
+}
+.component--type-unit-y .label--icon, .tooltip--type-unit-y .label--icon {
+  background-image: url("../icons/VectorComponents.VectorComponents.Component_UnitVectorY.png");
+}
+.component--type-unit-z .label--icon, .tooltip--type-unit-z .label--icon {
+  background-image: url("../icons/VectorComponents.VectorComponents.Component_UnitVectorZ.png");
+}
+.component--type-vector-2-pt .label--icon, .tooltip--type-vector-2-pt .label--icon {
+  background-image: url("../icons/VectorComponents.VectorComponents.Component_Vector2Pt.png");
+}
+.component--type-amplitude .label--icon, .tooltip--type-amplitude .label--icon {
+  background-image: url("../icons/VectorComponents.VectorComponents.Component_VectorAmplitude.png");
+}
+.component--type-angle .label--icon, .tooltip--type-angle .label--icon {
+  background-image: url("../icons/VectorComponents.VectorComponents.Component_VectorAngle.png");
+}
+.component--type-cross-product .label--icon, .tooltip--type-cross-product .label--icon {
+  background-image: url("../icons/VectorComponents.VectorComponents.Component_VectorCrossProduct.png");
+}
+.component--type-dot-product .label--icon, .tooltip--type-dot-product .label--icon {
+  background-image: url("../icons/VectorComponents.VectorComponents.Component_VectorDotProduct.png");
+}
+.component--type-vector-length .label--icon, .tooltip--type-vector-length .label--icon {
+  background-image: url("../icons/VectorComponents.VectorComponents.Component_VectorLength.png");
+}
+.component--type-reverse .label--icon, .tooltip--type-reverse .label--icon {
+  background-image: url("../icons/VectorComponents.VectorComponents.Component_VectorReverse.png");
+}
+.component--type-rotate .label--icon, .tooltip--type-rotate .label--icon {
+  background-image: url("../icons/VectorComponents.VectorComponents.Component_VectorRotate.png");
+}
+.component--type-break-field .label--icon, .tooltip--type-break-field .label--icon {
+  background-image: url("../icons/FieldComponents.BreakField.png");
+}
+.component--type-line-charge .label--icon, .tooltip--type-line-charge .label--icon {
+  background-image: url("../icons/FieldComponents.CreateLineCharge.png");
+}
+.component--type-point-charge .label--icon, .tooltip--type-point-charge .label--icon {
+  background-image: url("../icons/FieldComponents.CreatePointCharge.png");
+}
+.component--type-spin-force .label--icon, .tooltip--type-spin-force .label--icon {
+  background-image: url("../icons/FieldComponents.CreateSpinForce.png");
+}
+.component--type-vector-force .label--icon, .tooltip--type-vector-force .label--icon {
+  background-image: url("../icons/FieldComponents.CreateVectorForce.png");
+}
+.component--type-evaluate-field .label--icon, .tooltip--type-evaluate-field .label--icon {
+  background-image: url("../icons/FieldComponents.EvaluateField.png");
+}
+.component--type-tensor-display .label--icon, .tooltip--type-tensor-display .label--icon {
+  background-image: url("../icons/FieldComponents.FieldArrowSection.png");
+}
+.component--type-direction-display .label--icon, .tooltip--type-direction-display .label--icon {
+  background-image: url("../icons/FieldComponents.FieldDirectionSection.png");
+}
+.component--type-field-line .label--icon, .tooltip--type-field-line .label--icon {
+  background-image: url("../icons/FieldComponents.FieldLine.png");
+}
+.component--type-scalar-display .label--icon, .tooltip--type-scalar-display .label--icon {
+  background-image: url("../icons/FieldComponents.FieldScalarSection.png");
+}
+.component--type-perpendicular-display .label--icon, .tooltip--type-perpendicular-display .label--icon {
+  background-image: url("../icons/FieldComponents.FieldUpDownSection.png");
+}
+.component--type-merge-fields .label--icon, .tooltip--type-merge-fields .label--icon {
+  background-image: url("../icons/FieldComponents.MergeFields.png");
+}
+.component--type-project-point .label--icon, .tooltip--type-project-point .label--icon {
+  background-image: url("../icons/TriangulationComponents.Component_ProjectPoint.png");
+}
+.component--type-closest-point .label--icon, .tooltip--type-closest-point .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_ClosestPoint.png");
+}
+.component--type-closest-points .label--icon, .tooltip--type-closest-points .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_ClosestPoints.png");
+}
+.component--type-construct-point .label--icon, .tooltip--type-construct-point .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_ConstructPoint.png");
+}
+.component--type-cull-duplicates .label--icon, .tooltip--type-cull-duplicates .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_CullDuplicate.png");
+}
+.component--type-deconstruct .label--icon, .tooltip--type-deconstruct .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_DeconstructPoint.png");
+}
+.component--type-distance .label--icon, .tooltip--type-distance .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_Distance.png");
+}
+.component--type-numbers-to-points .label--icon, .tooltip--type-numbers-to-points .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_NumbersToPoints.png");
+}
+.component--type-barycentric .label--icon, .tooltip--type-barycentric .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_PointBarycentric.png");
+}
+.component--type-point-cylindrical .label--icon, .tooltip--type-point-cylindrical .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_PointCylindrical.png");
+}
+.component--type-point-groups .label--icon, .tooltip--type-point-groups .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_PointGroups.png");
+}
+.component--type-point-oriented .label--icon, .tooltip--type-point-oriented .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_PointOriented.png");
+}
+.component--type-point-polar .label--icon, .tooltip--type-point-polar .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_PointPolar.png");
+}
+.component--type-to-polar .label--icon, .tooltip--type-to-polar .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_PointPolarReverse.png");
+}
+.component--type-points-to-numbers .label--icon, .tooltip--type-points-to-numbers .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_PointsToNumbers.png");
+}
+.component--type-pull-point .label--icon, .tooltip--type-pull-point .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_PullPoint.png");
+}
+.component--type-sort-points .label--icon, .tooltip--type-sort-points .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_SortPoints.png");
+}
+.component--type-sort-along-curve .label--icon, .tooltip--type-sort-along-curve .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_SortPointsAlongCurve.png");
+}
+.component--type-radial .label--icon, .tooltip--type-radial .label--icon {
+  background-image: url("../icons/VectorComponents.GridComponents.Component_RadialGrid.png");
+}
+.component--type-rectangular .label--icon, .tooltip--type-rectangular .label--icon {
+  background-image: url("../icons/VectorComponents.GridComponents.Component_RectangularGrid.png");
+}
+.component--type-square .label--icon, .tooltip--type-square .label--icon {
+  background-image: url("../icons/VectorComponents.GridComponents.Component_SquareGrid.png");
+}
+.component--type-triangular .label--icon, .tooltip--type-triangular .label--icon {
+  background-image: url("../icons/VectorComponents.GridComponents.Component_TriangularGrid.png");
+}
+.component--type-populate-3-d .label--icon, .tooltip--type-populate-3-d .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_PopulateBox.png");
+}
+.component--type-populate-geometry .label--icon, .tooltip--type-populate-geometry .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_PopulateGeometry.png");
+}
+.component--type-populate-2-d .label--icon, .tooltip--type-populate-2-d .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_PopulateRectangle.png");
+}
+.component--type-adjust-plane .label--icon, .tooltip--type-adjust-plane .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_AdjustPlane.png");
+}
+.component--type-align-plane .label--icon, .tooltip--type-align-plane .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_AlignPlane.png");
+}
+.component--type-align-planes .label--icon, .tooltip--type-align-planes .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_AlignPlanes.png");
+}
+.component--type-construct-plane .label--icon, .tooltip--type-construct-plane .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_ConstructPlane.png");
+}
+.component--type-deconstruct-plane .label--icon, .tooltip--type-deconstruct-plane .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_DeconstructPlane.png");
+}
+.component--type-plane-3-pt .label--icon, .tooltip--type-plane-3-pt .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_Plane3Pt.png");
+}
+.component--type-plane-closest-point .label--icon, .tooltip--type-plane-closest-point .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_PlaneClosestPoint.png");
+}
+.component--type-plane-fit .label--icon, .tooltip--type-plane-fit .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_PlaneFitPoints.png");
+}
+.component--type-line-line .label--icon, .tooltip--type-line-line .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_PlaneLineLine.png");
+}
+.component--type-line-pt .label--icon, .tooltip--type-line-pt .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_PlaneLinePoint.png");
+}
+.component--type-plane-normal .label--icon, .tooltip--type-plane-normal .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_PlaneNormal.png");
+}
+.component--type-plane-offset .label--icon, .tooltip--type-plane-offset .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_PlaneOffset.png");
+}
+.component--type-plane-origin .label--icon, .tooltip--type-plane-origin .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_PlaneOrigin.png");
+}
+.component--type-rotate-plane .label--icon, .tooltip--type-rotate-plane .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_RotatePlane.png");
+}
+.component--type-x-y-plane .label--icon, .tooltip--type-x-y-plane .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_XYPlane.png");
+}
+.component--type-x-z-plane .label--icon, .tooltip--type-x-z-plane .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_XZPlane.png");
+}
+.component--type-y-z-plane .label--icon, .tooltip--type-y-z-plane .label--icon {
+  background-image: url("../icons/VectorComponents.PlaneComponents.Component_YZPlane.png");
+}
+.component--type-plane-coordinates .label--icon, .tooltip--type-plane-coordinates .label--icon {
+  background-image: url("../icons/VectorComponents.PointComponents.Component_PlaneCoordinates.png");
+}
+.component--type-bounding-box .label--icon, .tooltip--type-bounding-box .label--icon {
+  background-image: url("../icons/SurfaceComponents.PrimitiveComponents.Component_BoundingBox.png");
+}
+.component--type-box-2-pt .label--icon, .tooltip--type-box-2-pt .label--icon {
+  background-image: url("../icons/SurfaceComponents.PrimitiveComponents.Component_Box2Points.png");
+}
+.component--type-box-rectangle .label--icon, .tooltip--type-box-rectangle .label--icon {
+  background-image: url("../icons/SurfaceComponents.PrimitiveComponents.Component_BoxRectangle.png");
+}
+.component--type-center-box .label--icon, .tooltip--type-center-box .label--icon {
+  background-image: url("../icons/SurfaceComponents.PrimitiveComponents.Component_CenterBox.png");
+}
+.component--type-cone .label--icon, .tooltip--type-cone .label--icon {
+  background-image: url("../icons/SurfaceComponents.PrimitiveComponents.Component_Cone.png");
+}
+.component--type-cylinder .label--icon, .tooltip--type-cylinder .label--icon {
+  background-image: url("../icons/SurfaceComponents.PrimitiveComponents.Component_Cylinder.png");
+}
+.component--type-domain-box .label--icon, .tooltip--type-domain-box .label--icon {
+  background-image: url("../icons/SurfaceComponents.PrimitiveComponents.Component_IntervalBox.png");
+}
+.component--type-plane-surface .label--icon, .tooltip--type-plane-surface .label--icon {
+  background-image: url("../icons/SurfaceComponents.PrimitiveComponents.Component_PlaneSurface.png");
+}
+.component--type-plane-through-shape .label--icon, .tooltip--type-plane-through-shape .label--icon {
+  background-image: url("../icons/SurfaceComponents.PrimitiveComponents.Component_PlaneThroughShape.png");
+}
+.component--type-sphere .label--icon, .tooltip--type-sphere .label--icon {
+  background-image: url("../icons/SurfaceComponents.PrimitiveComponents.Component_Sphere.png");
+}
+.component--type-sphere-4-pt .label--icon, .tooltip--type-sphere-4-pt .label--icon {
+  background-image: url("../icons/SurfaceComponents.PrimitiveComponents.Component_Sphere4Pt.png");
+}
+.component--type-sphere-fit .label--icon, .tooltip--type-sphere-fit .label--icon {
+  background-image: url("../icons/TriangulationComponents.Component_FitSphere.png");
+}
+.component--type-brep-join .label--icon, .tooltip--type-brep-join .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_BrepJoin.png");
+}
+.component--type-cap-holes-ex .label--icon, .tooltip--type-cap-holes-ex .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_CapHoles.png");
+}
+.component--type-cap-holes .label--icon, .tooltip--type-cap-holes .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_CapPlanarHoles.png");
+}
+.component--type-copy-trim .label--icon, .tooltip--type-copy-trim .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_CopyTrims.png");
+}
+.component--type-flip .label--icon, .tooltip--type-flip .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_FlipSurface.png");
+}
+.component--type-isotrim .label--icon, .tooltip--type-isotrim .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_IsoTrim.png");
+}
+.component--type-merge-faces .label--icon, .tooltip--type-merge-faces .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_MergeCoPlanarFaces.png");
+}
+.component--type-offset .label--icon, .tooltip--type-offset .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_OffsetSurface.png");
+}
+.component--type-offset-loose .label--icon, .tooltip--type-offset-loose .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_OffsetSurfaceLoose.png");
+}
+.component--type-retrim .label--icon, .tooltip--type-retrim .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_ReTrim.png");
+}
+.component--type-untrim .label--icon, .tooltip--type-untrim .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_Untrim.png");
+}
+.component--type-divide-surface .label--icon, .tooltip--type-divide-surface .label--icon {
+  background-image: url("../icons/VectorComponents.DivisionComponents.Component_DivideSurface.png");
+}
+.component--type-surface-frames .label--icon, .tooltip--type-surface-frames .label--icon {
+  background-image: url("../icons/VectorComponents.DivisionComponents.Component_SurfaceFrames.png");
+}
+.component--type-area-moments .label--icon, .tooltip--type-area-moments .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_AreaMoments.png");
+}
+.component--type-area .label--icon, .tooltip--type-area .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_AreaProperties.png");
+}
+.component--type-box-corners .label--icon, .tooltip--type-box-corners .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_BoxCorners.png");
+}
+.component--type-box-properties .label--icon, .tooltip--type-box-properties .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_BoxProperties.png");
+}
+.component--type-brep-closest-point .label--icon, .tooltip--type-brep-closest-point .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_BRepClosestPoint.png");
+}
+.component--type-brep-edges .label--icon, .tooltip--type-brep-edges .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_BRepEdges.png");
+}
+.component--type-brep-topology .label--icon, .tooltip--type-brep-topology .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_BRepTopology.png");
+}
+.component--type-point-in-brep .label--icon, .tooltip--type-point-in-brep .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_BrepVolumeInclusion.png");
+}
+.component--type-point-in-breps .label--icon, .tooltip--type-point-in-breps .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_BrepVolumeInclusionMultiple.png");
+}
+.component--type-brep-wireframe .label--icon, .tooltip--type-brep-wireframe .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_BRepWireframe.png");
+}
+.component--type-deconstruct-box .label--icon, .tooltip--type-deconstruct-box .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_DeconstructBox.png");
+}
+.component--type-deconstruct-brep .label--icon, .tooltip--type-deconstruct-brep .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_DeconstructBrep.png");
+}
+.component--type-evaluate-box .label--icon, .tooltip--type-evaluate-box .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_EvaluateBox.png");
+}
+.component--type-evaluate-surface .label--icon, .tooltip--type-evaluate-surface .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_EvaluateSurface.png");
+}
+.component--type-shape-in-brep .label--icon, .tooltip--type-shape-in-brep .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_IsShapeInBrep.png");
+}
+.component--type-surface-closest-point .label--icon, .tooltip--type-surface-closest-point .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_SurfaceClosestPoint.png");
+}
+.component--type-surface-curvature .label--icon, .tooltip--type-surface-curvature .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_SurfaceCurvature.png");
+}
+.component--type-dimensions .label--icon, .tooltip--type-dimensions .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_SurfaceDimensions.png");
+}
+.component--type-is-planar .label--icon, .tooltip--type-is-planar .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_SurfaceIsPlanar.png");
+}
+.component--type-osculating-circles .label--icon, .tooltip--type-osculating-circles .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_SurfaceOsculatingCircles.png");
+}
+.component--type-surface-points .label--icon, .tooltip--type-surface-points .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_SurfacePoints.png");
+}
+.component--type-principal-curvature .label--icon, .tooltip--type-principal-curvature .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_SurfacePrincipalCurvature.png");
+}
+.component--type-point-in-trim .label--icon, .tooltip--type-point-in-trim .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_SurfaceTrimInclusion.png");
+}
+.component--type-volume-moments .label--icon, .tooltip--type-volume-moments .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_VolumeMoments.png");
+}
+.component--type-volume .label--icon, .tooltip--type-volume .label--icon {
+  background-image: url("../icons/SurfaceComponents.AnalysisComponents.Component_VolumeProperties.png");
+}
+.component--type-4-point-surface .label--icon, .tooltip--type-4-point-surface .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_4PointSurface.png");
+}
+.component--type-boundary-surfaces .label--icon, .tooltip--type-boundary-surfaces .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_BoundarySurfaces.png");
+}
+.component--type-edge-surface .label--icon, .tooltip--type-edge-surface .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_EdgeSurface.png");
+}
+.component--type-extrude .label--icon, .tooltip--type-extrude .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_Extrude.png");
+}
+.component--type-extrude-along .label--icon, .tooltip--type-extrude-along .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_ExtrudeAlongCurve.png");
+}
+.component--type-extrude-linear .label--icon, .tooltip--type-extrude-linear .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_ExtrudeLinear.png");
+}
+.component--type-extrude-point .label--icon, .tooltip--type-extrude-point .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_ExtrudeToPoint.png");
+}
+.component--type-fragment-patch .label--icon, .tooltip--type-fragment-patch .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_FragmentPatch.png");
+}
+.component--type-loft-options .label--icon, .tooltip--type-loft-options .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_LoftOptions.png");
+}
+.component--type-loft .label--icon, .tooltip--type-loft .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_LoftSurface.png");
+}
+.component--type-network-surface .label--icon, .tooltip--type-network-surface .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_NetworkSurface.png");
+}
+.component--type-patch .label--icon, .tooltip--type-patch .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_Patch.png");
+}
+.component--type-pipe .label--icon, .tooltip--type-pipe .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_PipeSurface.png");
+}
+.component--type-pipe-variable .label--icon, .tooltip--type-pipe-variable .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_PipeSurfaceEx.png");
+}
+.component--type-surface-from-points .label--icon, .tooltip--type-surface-from-points .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_PointGridSurface.png");
+}
+.component--type-rail-revolution .label--icon, .tooltip--type-rail-revolution .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_RevRailSurface.png");
+}
+.component--type-revolution .label--icon, .tooltip--type-revolution .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_RevSurface.png");
+}
+.component--type-ruled-surface .label--icon, .tooltip--type-ruled-surface .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_RuledSurface.png");
+}
+.component--type-sum-surface .label--icon, .tooltip--type-sum-surface .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_SumSurface.png");
+}
+.component--type-sweep1 .label--icon, .tooltip--type-sweep1 .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_Sweep1.png");
+}
+.component--type-sweep2 .label--icon, .tooltip--type-sweep2 .label--icon {
+  background-image: url("../icons/SurfaceComponents.SurfaceComponents.Component_Sweep2.png");
 }

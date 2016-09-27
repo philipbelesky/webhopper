@@ -1,8 +1,9 @@
+
+**This project is a work in progress and is likely to be worked on very sporadically.  Currently the CSS is setup for very basic forms of components and tooltips — it does not handle connections or custom component interfaces. That said the installation instructions below should work, and any pull requests are welcome.**
+
 # Webhopper
 
 A CSS library and HTML implementation reference for representing [Grasshopper 3D](http://grasshopper3d.com) UI elements in a browser.
-
-See [examples here](jekyll github page).
 
 # Installation
 
